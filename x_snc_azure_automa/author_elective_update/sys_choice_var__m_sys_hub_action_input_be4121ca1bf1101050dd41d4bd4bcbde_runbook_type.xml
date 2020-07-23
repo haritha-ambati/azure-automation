@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="runbook_type" table="var__m_sys_hub_action_input_be4121ca1bf1101050dd41d4bd4bcbde" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>runbook_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be4121ca1bf1101050dd41d4bd4bcbde</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-05 19:46:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e20969ce1bf1101050dd41d4bd4bcb14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-05 19:46:16</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>runbook_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Graph</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be4121ca1bf1101050dd41d4bd4bcbde</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-05 19:38:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec47258e1bf1101050dd41d4bd4bcbf6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-18 10:45:25</sys_updated_on>
+            <value>Graph</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>runbook_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Graph Power Shell</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be4121ca1bf1101050dd41d4bd4bcbde</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-05 19:38:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6c47258e1bf1101050dd41d4bd4bcbf7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-18 10:45:25</sys_updated_on>
+            <value>GraphPowerShell</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>runbook_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GraphPowerShellWorkflow</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be4121ca1bf1101050dd41d4bd4bcbde</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-05 19:38:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2847258e1bf1101050dd41d4bd4bcbf8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-18 10:45:25</sys_updated_on>
+            <value>GraphPowerShellWorkflow</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>runbook_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PowerShell</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be4121ca1bf1101050dd41d4bd4bcbde</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-05 19:38:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e047258e1bf1101050dd41d4bd4bcbf9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-18 10:45:25</sys_updated_on>
+            <value>PowerShell</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>runbook_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PowerShellWorkflow</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_be4121ca1bf1101050dd41d4bd4bcbde</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-05 19:38:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac47258e1bf1101050dd41d4bd4bcbf9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-18 10:45:25</sys_updated_on>
+            <value>PowerShellWorkflow</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>runbook_type</element>
+            <name>var__m_sys_hub_action_input_be4121ca1bf1101050dd41d4bd4bcbde</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-05 19:38:29</sys_created_on>
+            <sys_id>2847258e1bf1101050dd41d4bd4bcbf7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="Azure Automation Spoke" source="x_snc_azure_automa">ae44450a1bb1101050dd41d4bd4bcb4a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-05 19:38:29</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

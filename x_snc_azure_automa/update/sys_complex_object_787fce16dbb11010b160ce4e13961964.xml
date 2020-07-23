@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDb47fce1624b110104e861873b17dbf64</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>ae44450a1bb1101050dd41d4bd4bcb4a</scope_name>
+        <serialized_content>{"FlowDesigner:FDb47fce1624b110104e861873b17dbf64":{"Monthly_Occurrences":{"Day":"String","Day.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Choice\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"choice\",\"default_value\":\"\",\"label\":\"Day\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"32\"}","SimpleChoiceFacet":"{\"complex_choice_map_key$\":{},\"choice_map_key$\":{\"Monday\":\"{\\\"label\\\":\\\"Monday\\\",\\\"value\\\":\\\"Monday\\\",\\\"order\\\":1}\",\"Thursday\":\"{\\\"label\\\":\\\"Thursday\\\",\\\"value\\\":\\\"Thursday\\\",\\\"order\\\":4}\",\"Friday\":\"{\\\"label\\\":\\\"Friday\\\",\\\"value\\\":\\\"Friday\\\",\\\"order\\\":5}\",\"Sunday\":\"{\\\"label\\\":\\\"Sunday\\\",\\\"value\\\":\\\"Sunday\\\",\\\"order\\\":7}\",\"Wednesday\":\"{\\\"label\\\":\\\"Wednesday\\\",\\\"value\\\":\\\"Wednesdaay\\\",\\\"order\\\":3}\",\"Tuesday\":\"{\\\"label\\\":\\\"Tuesday\\\",\\\"value\\\":\\\"Tuesday\\\",\\\"order\\\":2}\",\"Saturday\":\"{\\\"label\\\":\\\"Saturday\\\",\\\"value\\\":\\\"Saturday\\\",\\\"order\\\":6}\"}}"},"Occurence":"Integer","Occurence.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Occurence\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"}},"Monthly_Occurrences.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Monthly Occurrences\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"Month_Days":["Any"],"Month_Days.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Month Days\",\"mandatory\":\"false\",\"child_name\":\"Month_Day\",\"uiTypeLabel\":\"Array.Integer\",\"child_label\":\"Month Day\",\"child_type_label\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.integer\",\"child_defaultValue\":\"\",\"child_type\":\"integer\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"146257c4-0a9e-4e76-a769-763c8ab31c0f\"}"},"Week_Days":["Any"],"Week_Days.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Week Days\",\"mandatory\":\"false\",\"child_name\":\"Week_Day\",\"uiTypeLabel\":\"Array.String\",\"child_label\":\"Week Day\",\"child_type_label\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"3\",\"max_length\":\"0\",\"child_uiUniqueId\":\"379bba36-bc40-42e5-a4c3-6200f426abbf\"}"}},"FlowDesigner:FDb47fce1624b110104e861873b17dbf64.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Advance Schedule\",\"mandatory\":\"false\",\"uiUniqueId\":\"e5c1d531-be69-4055-a7e1-d448b2df11a3\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDb47fce1624b110104e861873b17dbf64\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"11\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-06 17:12:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>787fce16dbb11010b160ce4e13961964</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>FDb47fce1624b110104e861873b17dbf64</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Azure Automation Spoke" source="x_snc_azure_automa">ae44450a1bb1101050dd41d4bd4bcb4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
+        <sys_update_name>sys_complex_object_787fce16dbb11010b160ce4e13961964</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-20 18:59:16</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
