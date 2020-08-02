@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>compile_dsc_configuration</internal_name>
         <label_cache>[{"name":"{{action.subscription_id}}","label":"action➛Subscription ID","type":"action","ref":""},{"name":"{{action.resource_group_name}}","label":"action➛Resource Group","type":"action","ref":""},{"name":"{{action.profile_name}}","label":"action➛Profile Name","type":"action","ref":""},{"name":"{{action.account}}","label":"action➛account","type":"action","ref":""},{"name":"{{action.account_name}}","label":"action➛Account Name","type":"action","ref":""},{"name":"{{action.configuration_name}}","label":"action➛Configuration Name","type":"action","ref":""},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":""},{"name":"{{action.description}}","label":"action➛Description","type":"action","ref":""},{"name":"{{action.parameters}}","label":"action➛Parameters","type":"action","ref":""},{"name":"{{action.parameters.Parameter}}","label":"action➛Parameters➛Parameter","type":"action","ref":""},{"name":"{{action.parameters.Parameter.Name}}","label":"action➛Parameters➛Parameter➛defaultValue","type":"action","ref":""},{"name":"{{action.parameters.Parameter.Value}}","label":"action➛Parameters➛Parameter➛Is Mandatory","type":"action","ref":""},{"name":"{{action.tags}}","label":"action➛Tags","type":"action","ref":""},{"name":"{{action.tags.Tag}}","label":"action➛Tags➛Tag","type":"action","ref":""},{"name":"{{action.tags.tag.Name}}","label":"action➛Tags➛Tag➛Name","type":"action","ref":""},{"name":"{{action.tags.tag.Value}}","label":"action➛Tags➛Tag➛Value","type":"action","ref":""},{"name":"{{action.source}}","label":"action➛Source","type":"action","ref":""},{"name":"{{action.content_source}}","label":"action➛Content Source","type":"action","ref":""},{"name":"{{action.content_source.Hash}}","label":"action➛Content Source➛Hash","type":"action","ref":""},{"name":"{{action.content_source.Hash._}}","label":"action➛Content Source➛Hash","type":"action","ref":""},{"name":"{{action.content_source.Hash.al}}","label":"action➛Content Source➛Hash➛al","type":"action","ref":""},{"name":"{{action.content_source.Hash.Algorithm}}","label":"action➛Content Source➛Hash➛Algorithm","type":"action","ref":""},{"name":"{{action.content_source.Hash.Value}}","label":"action➛Content Source➛Hash➛Value","type":"action","ref":""},{"name":"{{action.content_source.Type}}","label":"action➛Content Source➛Type","type":"action","ref":""},{"name":"{{action.content_source.Content}}","label":"action➛Content Source➛Content","type":"action","ref":""},{"name":"{{action.content_source.Version}}","label":"action➛Content Source➛Version","type":"action","ref":""},{"name":"{{action.parameters.Parameter.defaultValue}}","label":"action➛Parameters➛Parameter➛defaultValue","type":"action","ref":""},{"name":"{{action.parameters.Parameter.Default_Value}}","label":"action➛Parameters➛Parameter➛Default Value","type":"action","ref":""},{"name":"{{action.parameters.Parameter.Is_Mandatory}}","label":"action➛Parameters➛Parameter➛Is Mandatory","type":"action","ref":""},{"name":"{{action.parameters.Parameter.Position}}","label":"action➛Parameters➛Parameter➛Position","type":"action","ref":""},{"name":"{{action.parameters.Parameter.Type}}","label":"action➛Parameters➛Parameter➛Type","type":"action","ref":""},{"name":"{{action.compilation_job_name}}","label":"action➛Compilation Job Name","type":"action","ref":""},{"name":"{{action.tags.tag}}","label":"action➛Tags➛Tag","type":"action","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].payload}}","label":"step➛Pre Processing➛payload","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].variable1}}","label":"step➛Pre Processing➛variable1","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].variable2}}","label":"step➛Pre Processing➛variable2","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].subscription_id}}","label":"step➛Pre Processing➛subscription_id","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].resource_group_name}}","label":"step➛Pre Processing➛resource_group_name","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].profile_name}}","label":"step➛Pre Processing➛account_name","type":"step","ref":""},{"name":"{{step[f842ff2b-1496-49fe-9468-b28d368c34e9].status_code}}","label":"step➛Compile DSC Configuration➛Status Code","type":"step","ref":""},{"name":"{{step[f842ff2b-1496-49fe-9468-b28d368c34e9].response_body}}","label":"step➛Compile DSC Configuration➛Response Body","type":"step","ref":""},{"name":"{{step[f842ff2b-1496-49fe-9468-b28d368c34e9].response_headers}}","label":"step➛Compile DSC Configuration➛Response Headers","type":"step","ref":""},{"name":"{{step[7c6b96f3-f53c-4a88-ba96-2fd990095db4].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[7c6b96f3-f53c-4a88-ba96-2fd990095db4].variable1}}","label":"step➛Post Processing➛variable1","type":"step","ref":""},{"name":"{{step[7c6b96f3-f53c-4a88-ba96-2fd990095db4].status}}","label":"step➛Post Processing➛status","type":"step","ref":""},{"name":"{{step[7c6b96f3-f53c-4a88-ba96-2fd990095db4].error_message}}","label":"step➛Post Processing➛error_message","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].account_name}}","label":"step➛Pre Processing➛account_name","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].configuration_name}}","label":"step➛Pre Processing➛compilation_job_name","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].compilation_job_name}}","label":"step➛Pre Processing➛compilation_job_name","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>f6598d2e1b42101050dd41d4bd4bcb34</latest_snapshot>
+        <latest_snapshot>9377f3f6db5a1010b160ce4e139619c6</latest_snapshot>
         <master_snapshot>f759cd2e1b42101050dd41d4bd4bcb18</master_snapshot>
         <name>Compile DSC Configuration</name>
         <natlang/>
@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7e464daa1b42101050dd41d4bd4bcbf2</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Compile DSC Configuration</sys_name>
         <sys_overrides/>
         <sys_package display_value="Azure Automation Spoke" source="x_snc_azure_automa">ae44450a1bb1101050dd41d4bd4bcb4a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_7e464daa1b42101050dd41d4bd4bcbf2</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-19 17:00:37</sys_updated_on>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:34</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -2083,7 +2083,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_action_input action="delete_multiple" query="model=7e464daa1b42101050dd41d4bd4bcbf2^sys_idNOT IN29594d2e1b42101050dd41d4bd4bcb32,87464daa1b42101050dd41d4bd4bcbf7,87468daa1b42101050dd41d4bd4bcb0c,8f468daa1b42101050dd41d4bd4bcb25,cb464daa1b42101050dd41d4bd4bcbfd,e1594d2e1b42101050dd41d4bd4bcb38,e5594d2e1b42101050dd41d4bd4bcb28"/>
+    <sys_hub_action_input action="delete_multiple" query="model=7e464daa1b42101050dd41d4bd4bcbf2^sys_idNOT IN29594d2e1b42101050dd41d4bd4bcb32,4a77b3f6db5a1010b160ce4e13961974,87464daa1b42101050dd41d4bd4bcbf7,87468daa1b42101050dd41d4bd4bcb0c,cb464daa1b42101050dd41d4bd4bcbfd,e1594d2e1b42101050dd41d4bd4bcb38,e5594d2e1b42101050dd41d4bd4bcb28"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2165,6 +2165,142 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>dynamic=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=73e3cb23-2b56-4d4c-94b5-a86a3ea2854d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>configuration_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Configuration Name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Compile DSC Configuration">7e464daa1b42101050dd41d4bd4bcbf2</model>
+        <model_id>7e464daa1b42101050dd41d4bd4bcbf2</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-08-02 10:35:23</sys_created_on>
+        <sys_id>4a77b3f6db5a1010b160ce4e13961974</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4a77b3f6db5a1010b160ce4e13961974^sys_idNOT IN4677b3f6db5a1010b160ce4e1396197c"/>
+    <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
+        <action_input display_value="">4a77b3f6db5a1010b160ce4e13961974</action_input>
+        <action_inputs/>
+        <action_type display_value="Look up DSC Configuration (Metadata)">d6ce7c2adb8a1010b160ce4e13961974</action_type>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-08-02 10:35:23</sys_created_on>
+        <sys_id>4677b3f6db5a1010b160ce4e1396197c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:23</sys_updated_on>
+    </sys_hub_action_input_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4677b3f6db5a1010b160ce4e1396197c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_input_action_instance</document>
+        <document_key>4677b3f6db5a1010b160ce4e1396197c</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-08-02 10:35:23</sys_created_on>
+        <sys_id>0e77b3f6db5a1010b160ce4e1396197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:23</sys_updated_on>
+        <value>{{action.resource_group_name}}</value>
+        <variable display_value="">5ece7c2adb8a1010b160ce4e13961982</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_input_action_instance</document>
+        <document_key>4677b3f6db5a1010b160ce4e1396197c</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-08-02 10:35:23</sys_created_on>
+        <sys_id>4a77b3f6db5a1010b160ce4e1396197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:23</sys_updated_on>
+        <value>{{action.account_name}}</value>
+        <variable display_value="">1ace7c2adb8a1010b160ce4e13961991</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_input_action_instance</document>
+        <document_key>4677b3f6db5a1010b160ce4e1396197c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-08-02 10:35:23</sys_created_on>
+        <sys_id>8677b3f6db5a1010b160ce4e1396197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:23</sys_updated_on>
+        <value>{{action.subscription_id}}</value>
+        <variable display_value="">1ace7c2adb8a1010b160ce4e1396197c</variable>
+    </sys_variable_value>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2335,9 +2471,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-19 16:47:08</sys_created_on>
         <sys_id>c7468daa1b42101050dd41d4bd4bcb24</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-19 17:00:24</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:22</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c7468daa1b42101050dd41d4bd4bcb24"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2368,87 +2504,6 @@
         <value>{{action.resource_group_name}}</value>
         <variable display_value="">371b5212dbf11010b160ce4e1396198f</variable>
     </sys_variable_value>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=73e3cb23-2b56-4d4c-94b5-a86a3ea2854d</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>configuration_name</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Configuration Name</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Compile DSC Configuration">7e464daa1b42101050dd41d4bd4bcbf2</model>
-        <model_id>7e464daa1b42101050dd41d4bd4bcbf2</model_id>
-        <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2</name>
-        <next_element/>
-        <order>5</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-19 16:47:08</sys_created_on>
-        <sys_id>8f468daa1b42101050dd41d4bd4bcb25</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-19 17:00:25</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2538,9 +2593,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-19 16:47:08</sys_created_on>
         <sys_id>87468daa1b42101050dd41d4bd4bcb0b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-19 17:00:24</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:22</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=87468daa1b42101050dd41d4bd4bcb0b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2561,7 +2616,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Tag,child_name=tag,child_type=object,child_type_label=Object,child_uiUniqueId=dcc4cda1-07cf-40ee-acc7-4b42a2fe986e,co_type_name=FD19590d2e38421010e612dbd03d2ad44e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=d859a067-9a15-4d36-928e-a7708d0ee6b8</attributes>
+        <attributes>child_label=Tag,child_name=tag,child_type=object,child_type_label=Object,child_uiUniqueId=c7ed3307-4a90-4809-87f2-566321c6dd6c,co_type_name=FD19590d2e38421010e612dbd03d2ad44e,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=d859a067-9a15-4d36-928e-a7708d0ee6b8</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2619,14 +2674,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-19 17:00:25</sys_created_on>
         <sys_id>e1594d2e1b42101050dd41d4bd4bcb38</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-19 17:00:25</sys_updated_on>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2682,7 +2737,7 @@
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2</name>
         <next_element/>
-        <order>4</order>
+        <order>5</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -2700,14 +2755,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-19 17:00:24</sys_created_on>
         <sys_id>e5594d2e1b42101050dd41d4bd4bcb28</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-19 17:00:24</sys_updated_on>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4890,7 +4945,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2^sys_idNOT IN03468daa1b42101050dd41d4bd4bcb0a,07464daa1b42101050dd41d4bd4bcbfc,2d594d2e1b42101050dd41d4bd4bcb36,43468daa1b42101050dd41d4bd4bcb23,6d594d2e1b42101050dd41d4bd4bcb2c,6d594d2e1b42101050dd41d4bd4bcb3c,83468daa1b42101050dd41d4bd4bcb2a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2^sys_idNOT IN03468daa1b42101050dd41d4bd4bcb0a,07464daa1b42101050dd41d4bd4bcbfc,2d594d2e1b42101050dd41d4bd4bcb36,43468daa1b42101050dd41d4bd4bcb23,6d594d2e1b42101050dd41d4bd4bcb2c,6d594d2e1b42101050dd41d4bd4bcb3c,c277b3f6db5a1010b160ce4e1396197b"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>resource_group_name</element>
         <help/>
@@ -5038,41 +5093,22 @@
         <name>var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-19 16:47:08</sys_created_on>
-        <sys_id>83468daa1b42101050dd41d4bd4bcb2a</sys_id>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-08-02 10:35:23</sys_created_on>
+        <sys_id>c277b3f6db5a1010b160ce4e1396197b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Azure Automation Spoke" source="x_snc_azure_automa">ae44450a1bb1101050dd41d4bd4bcb4a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-19 16:47:08</sys_updated_on>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:23</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2^sys_idNOT IN07468daa1b42101050dd41d4bd4bcb10,4b468daa1b42101050dd41d4bd4bcb0f,87468daa1b42101050dd41d4bd4bcb1d,43468daa1b42101050dd41d4bd4bcb1e,0f468daa1b42101050dd41d4bd4bcb1e,4b468daa1b42101050dd41d4bd4bcb01,8f468daa1b42101050dd41d4bd4bcb00,07468daa1b42101050dd41d4bd4bcb02,cf468daa1b42101050dd41d4bd4bcb02,8b468daa1b42101050dd41d4bd4bcb03,47468daa1b42101050dd41d4bd4bcb04,03468daa1b42101050dd41d4bd4bcb05,cb468daa1b42101050dd41d4bd4bcb05"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2^sys_idNOT IN4b468daa1b42101050dd41d4bd4bcb0f,07468daa1b42101050dd41d4bd4bcb10,87468daa1b42101050dd41d4bd4bcb1d,43468daa1b42101050dd41d4bd4bcb1e,0f468daa1b42101050dd41d4bd4bcb1e,8f468daa1b42101050dd41d4bd4bcb00,4b468daa1b42101050dd41d4bd4bcb01,07468daa1b42101050dd41d4bd4bcb02,cf468daa1b42101050dd41d4bd4bcb02,8b468daa1b42101050dd41d4bd4bcb03,47468daa1b42101050dd41d4bd4bcb04,03468daa1b42101050dd41d4bd4bcb05,cb468daa1b42101050dd41d4bd4bcb05"/>
     <sys_choice field="account_name" table="var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>account_name</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>haaritha5</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-19 16:47:08</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>07468daa1b42101050dd41d4bd4bcb10</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-19 17:00:24</sys_updated_on>
-            <value>haaritha5</value>
-        </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>account_name</element>
@@ -5081,16 +5117,35 @@
             <label>-- None --</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2</name>
-            <sequence>1</sequence>
+            <sequence>0</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-07-19 16:47:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>4b468daa1b42101050dd41d4bd4bcb0f</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-19 17:00:24</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-08-02 10:35:22</sys_updated_on>
             <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>account_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>haaritha5</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-19 16:47:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>07468daa1b42101050dd41d4bd4bcb10</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-08-02 10:35:22</sys_updated_on>
+            <value>haaritha5</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -5100,15 +5155,15 @@
             <label>haritha12</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2</name>
-            <sequence>1</sequence>
+            <sequence>2</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-07-19 16:47:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>87468daa1b42101050dd41d4bd4bcb1d</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-19 17:00:24</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-08-02 10:35:22</sys_updated_on>
             <value>haritha12</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -5119,15 +5174,15 @@
             <label>haritha124</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2</name>
-            <sequence>2</sequence>
+            <sequence>3</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-07-19 16:47:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>43468daa1b42101050dd41d4bd4bcb1e</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-19 17:00:24</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-08-02 10:35:22</sys_updated_on>
             <value>haritha124</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -5138,15 +5193,15 @@
             <label>now123</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2</name>
-            <sequence>3</sequence>
+            <sequence>4</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-07-19 16:47:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>0f468daa1b42101050dd41d4bd4bcb1e</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-19 17:00:24</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-08-02 10:35:22</sys_updated_on>
             <value>now123</value>
         </sys_choice>
     </sys_choice>
@@ -5156,7 +5211,7 @@
             <element>resource_group_name</element>
             <hint/>
             <inactive>false</inactive>
-            <label>haritha-managed-disk</label>
+            <label>-- None --</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2</name>
             <sequence>0</sequence>
@@ -5164,18 +5219,18 @@
             <sys_created_on>2020-07-19 16:47:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4b468daa1b42101050dd41d4bd4bcb01</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-19 17:00:24</sys_updated_on>
-            <value>haritha-managed-disk</value>
+            <sys_id>8f468daa1b42101050dd41d4bd4bcb00</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-08-02 10:35:22</sys_updated_on>
+            <value/>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>resource_group_name</element>
             <hint/>
             <inactive>false</inactive>
-            <label>-- None --</label>
+            <label>haritha-managed-disk</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2</name>
             <sequence>1</sequence>
@@ -5183,11 +5238,11 @@
             <sys_created_on>2020-07-19 16:47:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8f468daa1b42101050dd41d4bd4bcb00</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-19 17:00:24</sys_updated_on>
-            <value/>
+            <sys_id>4b468daa1b42101050dd41d4bd4bcb01</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-08-02 10:35:22</sys_updated_on>
+            <value>haritha-managed-disk</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -5197,15 +5252,15 @@
             <label>automation</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2</name>
-            <sequence>1</sequence>
+            <sequence>2</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-07-19 16:47:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>07468daa1b42101050dd41d4bd4bcb02</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-19 17:00:24</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-08-02 10:35:22</sys_updated_on>
             <value>automation</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -5216,15 +5271,15 @@
             <label>automation1</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2</name>
-            <sequence>2</sequence>
+            <sequence>3</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-07-19 16:47:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>cf468daa1b42101050dd41d4bd4bcb02</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-19 17:00:24</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-08-02 10:35:22</sys_updated_on>
             <value>automation1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -5235,15 +5290,15 @@
             <label>NetworkWatcherRG</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2</name>
-            <sequence>3</sequence>
+            <sequence>4</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-07-19 16:47:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>8b468daa1b42101050dd41d4bd4bcb03</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-19 17:00:24</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-08-02 10:35:22</sys_updated_on>
             <value>NetworkWatcherRG</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -5254,15 +5309,15 @@
             <label>DefaultResourceGroup-SEA</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2</name>
-            <sequence>4</sequence>
+            <sequence>5</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-07-19 16:47:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>47468daa1b42101050dd41d4bd4bcb04</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-19 17:00:24</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-08-02 10:35:22</sys_updated_on>
             <value>DefaultResourceGroup-SEA</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -5273,15 +5328,15 @@
             <label>haritha1</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2</name>
-            <sequence>5</sequence>
+            <sequence>6</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-07-19 16:47:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>03468daa1b42101050dd41d4bd4bcb05</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-19 17:00:24</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-08-02 10:35:22</sys_updated_on>
             <value>haritha1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -5292,15 +5347,15 @@
             <label>haritha</label>
             <language>en</language>
             <name>var__m_sys_hub_action_input_7e464daa1b42101050dd41d4bd4bcbf2</name>
-            <sequence>6</sequence>
+            <sequence>7</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-07-19 16:47:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>cb468daa1b42101050dd41d4bd4bcb05</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-19 17:00:24</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-08-02 10:35:22</sys_updated_on>
             <value>haritha</value>
         </sys_choice>
     </sys_choice>
@@ -5396,17 +5451,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Compile DSC Configuration">7e464daa1b42101050dd41d4bd4bcbf2</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"f169016e1b42101050dd41d4bd4bcbfc","name":"plan"}}</plan>
-        <snapshot>f6598d2e1b42101050dd41d4bd4bcb34</snapshot>
+        <snapshot>9377f3f6db5a1010b160ce4e139619c6</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-19 17:00:42</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f169016e1b42101050dd41d4bd4bcbfc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-19 17:00:42</sys_updated_on>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:38</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -7489,12 +7544,12 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_action_input action="delete_multiple" query="model=f759cd2e1b42101050dd41d4bd4bcb18^sys_idNOT IN0869cd2e1b42101050dd41d4bd4bcb67,3359cd2e1b42101050dd41d4bd4bcb28,3759cd2e1b42101050dd41d4bd4bcb2e,7f59cd2e1b42101050dd41d4bd4bcb61,b359cd2e1b42101050dd41d4bd4bcb5c,b759cd2e1b42101050dd41d4bd4bcb49,f759cd2e1b42101050dd41d4bd4bcb56"/>
+    <sys_hub_action_input action="delete_multiple" query="model=f759cd2e1b42101050dd41d4bd4bcb18^sys_idNOT IN0869cd2e1b42101050dd41d4bd4bcb67,188777f6db5a1010b160ce4e13961911,3359cd2e1b42101050dd41d4bd4bcb28,3759cd2e1b42101050dd41d4bd4bcb2e,7f59cd2e1b42101050dd41d4bd4bcb61,b759cd2e1b42101050dd41d4bd4bcb49,f759cd2e1b42101050dd41d4bd4bcb56"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Tag,child_name=tag,child_type=object,child_type_label=Object,child_uiUniqueId=dcc4cda1-07cf-40ee-acc7-4b42a2fe986e,co_type_name=FDb759cd2eed4210109b1c2ca0a1c7dc19,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=d859a067-9a15-4d36-928e-a7708d0ee6b8</attributes>
+        <attributes>child_label=Tag,child_name=tag,child_type=object,child_type_label=Object,child_uiUniqueId=c7ed3307-4a90-4809-87f2-566321c6dd6c,co_type_name=FD588737f6d65a10106a3371294e65bcee,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=d859a067-9a15-4d36-928e-a7708d0ee6b8</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -7552,14 +7607,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-19 17:00:34</sys_created_on>
         <sys_id>0869cd2e1b42101050dd41d4bd4bcb67</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-19 17:00:34</sys_updated_on>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -7571,6 +7626,142 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>dynamic=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=73e3cb23-2b56-4d4c-94b5-a86a3ea2854d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>configuration_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Configuration Name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Compile DSC Configuration">f759cd2e1b42101050dd41d4bd4bcb18</model>
+        <model_id>f759cd2e1b42101050dd41d4bd4bcb18</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_f759cd2e1b42101050dd41d4bd4bcb18</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-08-02 10:35:33</sys_created_on>
+        <sys_id>188777f6db5a1010b160ce4e13961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=188777f6db5a1010b160ce4e13961911^sys_idNOT IN648777f6db5a1010b160ce4e13961924"/>
+    <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
+        <action_input display_value="">188777f6db5a1010b160ce4e13961911</action_input>
+        <action_inputs/>
+        <action_type display_value="Look up DSC Configuration (Metadata)">d6ce7c2adb8a1010b160ce4e13961974</action_type>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-08-02 10:35:33</sys_created_on>
+        <sys_id>648777f6db5a1010b160ce4e13961924</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:33</sys_updated_on>
+    </sys_hub_action_input_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=648777f6db5a1010b160ce4e13961924"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_input_action_instance</document>
+        <document_key>648777f6db5a1010b160ce4e13961924</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-08-02 10:35:33</sys_created_on>
+        <sys_id>2c8777f6db5a1010b160ce4e13961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:33</sys_updated_on>
+        <value>{{action.resource_group_name}}</value>
+        <variable display_value="">5ece7c2adb8a1010b160ce4e13961982</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_input_action_instance</document>
+        <document_key>648777f6db5a1010b160ce4e13961924</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-08-02 10:35:33</sys_created_on>
+        <sys_id>688777f6db5a1010b160ce4e13961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:33</sys_updated_on>
+        <value>{{action.account_name}}</value>
+        <variable display_value="">1ace7c2adb8a1010b160ce4e13961991</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_input_action_instance</document>
+        <document_key>648777f6db5a1010b160ce4e13961924</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-08-02 10:35:33</sys_created_on>
+        <sys_id>a48777f6db5a1010b160ce4e13961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:33</sys_updated_on>
+        <value>{{action.subscription_id}}</value>
+        <variable display_value="">1ace7c2adb8a1010b160ce4e1396197c</variable>
+    </sys_variable_value>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -7741,9 +7932,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-19 17:00:34</sys_created_on>
         <sys_id>b759cd2e1b42101050dd41d4bd4bcb48</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-19 17:00:34</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:32</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b759cd2e1b42101050dd41d4bd4bcb48"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -7822,87 +8013,6 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-19 17:00:34</sys_created_on>
         <sys_id>7f59cd2e1b42101050dd41d4bd4bcb61</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-19 17:00:34</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=73e3cb23-2b56-4d4c-94b5-a86a3ea2854d</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>configuration_name</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Configuration Name</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Compile DSC Configuration">f759cd2e1b42101050dd41d4bd4bcb18</model>
-        <model_id>f759cd2e1b42101050dd41d4bd4bcb18</model_id>
-        <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_input_f759cd2e1b42101050dd41d4bd4bcb18</name>
-        <next_element/>
-        <order>5</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-19 17:00:34</sys_created_on>
-        <sys_id>b359cd2e1b42101050dd41d4bd4bcb5c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
@@ -8011,9 +8121,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-19 17:00:34</sys_created_on>
         <sys_id>3359cd2e1b42101050dd41d4bd4bcb55</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-19 17:00:34</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:32</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3359cd2e1b42101050dd41d4bd4bcb55"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -8088,7 +8198,7 @@
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_input_f759cd2e1b42101050dd41d4bd4bcb18</name>
         <next_element/>
-        <order>4</order>
+        <order>5</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -8106,14 +8216,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-19 17:00:34</sys_created_on>
         <sys_id>f759cd2e1b42101050dd41d4bd4bcb56</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-19 17:00:34</sys_updated_on>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -10296,7 +10406,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_f759cd2e1b42101050dd41d4bd4bcb18^sys_idNOT IN3359cd2e1b42101050dd41d4bd4bcb47,4069cd2e1b42101050dd41d4bd4bcb66,7f59cd2e1b42101050dd41d4bd4bcb2c,8069cd2e1b42101050dd41d4bd4bcb6c,b759cd2e1b42101050dd41d4bd4bcb60,bb59cd2e1b42101050dd41d4bd4bcb53,fb59cd2e1b42101050dd41d4bd4bcb5a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_f759cd2e1b42101050dd41d4bd4bcb18^sys_idNOT IN3359cd2e1b42101050dd41d4bd4bcb47,4069cd2e1b42101050dd41d4bd4bcb66,7f59cd2e1b42101050dd41d4bd4bcb2c,8069cd2e1b42101050dd41d4bd4bcb6c,bb59cd2e1b42101050dd41d4bd4bcb53,e08777f6db5a1010b160ce4e13961923,fb59cd2e1b42101050dd41d4bd4bcb5a"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>resource_group_name</element>
         <help/>
@@ -10390,29 +10500,6 @@
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>configuration_name</element>
-        <help/>
-        <hint/>
-        <label>Configuration Name</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_f759cd2e1b42101050dd41d4bd4bcb18</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-19 17:00:34</sys_created_on>
-        <sys_id>b759cd2e1b42101050dd41d4bd4bcb60</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Azure Automation Spoke" source="x_snc_azure_automa">ae44450a1bb1101050dd41d4bd4bcb4a</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-19 17:00:34</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
         <element>account_name</element>
         <help/>
         <hint/>
@@ -10432,6 +10519,29 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-19 17:00:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>configuration_name</element>
+        <help/>
+        <hint/>
+        <label>Configuration Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_f759cd2e1b42101050dd41d4bd4bcb18</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>haritha.ambati@snc</sys_created_by>
+        <sys_created_on>2020-08-02 10:35:33</sys_created_on>
+        <sys_id>e08777f6db5a1010b160ce4e13961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Azure Automation Spoke" source="x_snc_azure_automa">ae44450a1bb1101050dd41d4bd4bcb4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+        <sys_updated_on>2020-08-02 10:35:33</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -10458,7 +10568,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_f759cd2e1b42101050dd41d4bd4bcb18^sys_idNOT IN7b59cd2e1b42101050dd41d4bd4bcb4c,3759cd2e1b42101050dd41d4bd4bcb4d,ff59cd2e1b42101050dd41d4bd4bcb4d,bb59cd2e1b42101050dd41d4bd4bcb4e,7759cd2e1b42101050dd41d4bd4bcb4f,f759cd2e1b42101050dd41d4bd4bcb31,b359cd2e1b42101050dd41d4bd4bcb32,7f59cd2e1b42101050dd41d4bd4bcb32,ff59cd2e1b42101050dd41d4bd4bcb3f,bb59cd2e1b42101050dd41d4bd4bcb40,7759cd2e1b42101050dd41d4bd4bcb41,3359cd2e1b42101050dd41d4bd4bcb42,fb59cd2e1b42101050dd41d4bd4bcb42"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_f759cd2e1b42101050dd41d4bd4bcb18^sys_idNOT IN7b59cd2e1b42101050dd41d4bd4bcb4c,3759cd2e1b42101050dd41d4bd4bcb4d,ff59cd2e1b42101050dd41d4bd4bcb4d,bb59cd2e1b42101050dd41d4bd4bcb4e,7759cd2e1b42101050dd41d4bd4bcb4f,688777f6db5a1010b160ce4e13961914,f759cd2e1b42101050dd41d4bd4bcb31,b359cd2e1b42101050dd41d4bd4bcb32,7f59cd2e1b42101050dd41d4bd4bcb32,ff59cd2e1b42101050dd41d4bd4bcb3f,bb59cd2e1b42101050dd41d4bd4bcb40,7759cd2e1b42101050dd41d4bd4bcb41,3359cd2e1b42101050dd41d4bd4bcb42,fb59cd2e1b42101050dd41d4bd4bcb42"/>
     <sys_choice field="account_name" table="var__m_sys_hub_action_input_f759cd2e1b42101050dd41d4bd4bcb18">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -10554,6 +10664,27 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-07-19 17:00:34</sys_updated_on>
             <value>now123</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_choice field="configuration_name" table="var__m_sys_hub_action_input_f759cd2e1b42101050dd41d4bd4bcb18">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>configuration_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_f759cd2e1b42101050dd41d4bd4bcb18</name>
+            <sequence>0</sequence>
+            <sys_created_by>haritha.ambati@snc</sys_created_by>
+            <sys_created_on>2020-08-02 10:35:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>688777f6db5a1010b160ce4e13961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>haritha.ambati@snc</sys_updated_by>
+            <sys_updated_on>2020-08-02 10:35:33</sys_updated_on>
+            <value/>
         </sys_choice>
     </sys_choice>
     <sys_choice field="resource_group_name" table="var__m_sys_hub_action_input_f759cd2e1b42101050dd41d4bd4bcb18">
