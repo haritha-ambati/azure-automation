@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="resource_group_name" table="var__m_sys_hub_action_input_6ffde1061b35101050dd41d4bd4bcb5e" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resource_group_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ffde1061b35101050dd41d4bd4bcb5e</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-05 20:07:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27fde1061b35101050dd41d4bd4bcb7d</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-01 11:10:38</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resource_group_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>haritha-managed-disk</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ffde1061b35101050dd41d4bd4bcb5e</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-05 20:07:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>effde1061b35101050dd41d4bd4bcb7d</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-01 11:10:38</sys_updated_on>
+            <value>haritha-managed-disk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resource_group_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>automation</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ffde1061b35101050dd41d4bd4bcb5e</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-05 20:07:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abfde1061b35101050dd41d4bd4bcb7e</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-01 11:10:38</sys_updated_on>
+            <value>automation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resource_group_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>now</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ffde1061b35101050dd41d4bd4bcb5e</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-01 09:13:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eb1b56221b92501050dd41d4bd4bcbff</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-01 11:10:38</sys_updated_on>
+            <value>now</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resource_group_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>automation1</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ffde1061b35101050dd41d4bd4bcb5e</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-05 20:07:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67fde1061b35101050dd41d4bd4bcb7f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-01 11:10:38</sys_updated_on>
+            <value>automation1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resource_group_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NetworkWatcherRG</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ffde1061b35101050dd41d4bd4bcb5e</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-01 09:13:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af1b96221b92501050dd41d4bd4bcb00</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-01 11:10:38</sys_updated_on>
+            <value>NetworkWatcherRG</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resource_group_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DefaultResourceGroup-SEA</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ffde1061b35101050dd41d4bd4bcb5e</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-01 09:13:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b1b96221b92501050dd41d4bd4bcb01</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-01 11:10:38</sys_updated_on>
+            <value>DefaultResourceGroup-SEA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resource_group_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>haritha1</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ffde1061b35101050dd41d4bd4bcb5e</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-05 20:07:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23fde1061b35101050dd41d4bd4bcb80</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-01 11:10:38</sys_updated_on>
+            <value>haritha1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>resource_group_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>haritha</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_6ffde1061b35101050dd41d4bd4bcb5e</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-05 20:07:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ebfde1061b35101050dd41d4bd4bcb80</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-01 11:10:38</sys_updated_on>
+            <value>haritha</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>resource_group_name</element>
+            <name>var__m_sys_hub_action_input_6ffde1061b35101050dd41d4bd4bcb5e</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-01 09:13:24</sys_created_on>
+            <sys_id>271b96221b92501050dd41d4bd4bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="Azure Automation Spoke" source="x_snc_azure_automa">ae44450a1bb1101050dd41d4bd4bcb4a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-01 09:13:24</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

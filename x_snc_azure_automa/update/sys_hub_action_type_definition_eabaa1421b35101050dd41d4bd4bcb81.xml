@@ -13,7 +13,7 @@
         <ih_action>true</ih_action>
         <internal_name>update_runbook</internal_name>
         <label_cache>[{"name":"{{action.subscription_id}}","label":"action➛Subscription ID","type":"action","ref":""},{"name":"{{action.resource_group_name}}","label":"action➛Resource Group","type":"action","ref":""},{"name":"{{action.profile_name}}","label":"action➛Profile Name","type":"action","ref":""},{"name":"{{action.account}}","label":"action➛account","type":"action","ref":""},{"name":"{{action.account_name}}","label":"action➛Account Name","type":"action","ref":""},{"name":"{{action.tags}}","label":"action➛Tags","type":"action","ref":""},{"name":"{{action.tags.Tag}}","label":"action➛Tags➛Tag","type":"action","ref":""},{"name":"{{action.tags.Tag.Key}}","label":"action➛Tags➛Tag➛Key","type":"action","ref":""},{"name":"{{action.tags.Tag.Value}}","label":"action➛Tags➛Tag➛Value","type":"action","ref":""},{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":""},{"name":"{{action.sku}}","label":"action➛SKU","type":"action","ref":""},{"name":"{{action.sku.Name}}","label":"action➛SKU➛Name","type":"action","ref":""},{"name":"{{action.sku.Capacity}}","label":"action➛SKU➛Capacity","type":"action","ref":""},{"name":"{{action.sku._}}","label":"action➛SKU","type":"action","ref":""},{"name":"{{action.sku.Family}}","label":"action➛SKU➛Family","type":"action","ref":""},{"name":"{{action.sku.name}}","label":"action➛SKU➛Name","type":"action","ref":""},{"name":"{{action.sku.capacity}}","label":"action➛SKU➛Capacity","type":"action","ref":""},{"name":"{{action.sku.family}}","label":"action➛SKU➛Family","type":"action","ref":""},{"name":"{{action.runbook_name}}","label":"action➛Runbook Name","type":"action","ref":""},{"name":"{{action.runbook_type}}","label":"action➛Runbook Type","type":"action","ref":""},{"name":"{{action.description}}","label":"action➛Description","type":"action","ref":""},{"name":"{{action.logverbose}}","label":"action➛logVerbose","type":"action","ref":""},{"name":"{{action.logprogress}}","label":"action➛logProgress","type":"action","ref":""},{"name":"{{action.log_verbose}}","label":"action➛Log Verbose","type":"action","ref":""},{"name":"{{action.log_progress}}","label":"action➛Log Progress","type":"action","ref":""},{"name":"{{action.content}}","label":"action➛Content","type":"action","ref":""},{"name":"{{action.content.URL}}","label":"action➛Content➛URL","type":"action","ref":""},{"name":"{{action.content.URI}}","label":"action➛Content➛URI","type":"action","ref":""},{"name":"{{action.content.Version}}","label":"action➛Content➛Version","type":"action","ref":""},{"name":"{{action.content.Content_Hash}}","label":"action➛Content➛Content Hash","type":"action","ref":""},{"name":"{{action.content.content_hash._}}","label":"action➛Content➛Content Hash","type":"action","ref":""},{"name":"{{action.content.content_hash.Algorithm}}","label":"action➛Content➛Content Hash➛Algorithm","type":"action","ref":""},{"name":"{{action.content.content_hash.Value}}","label":"action➛Content➛Content Hash➛Value","type":"action","ref":""},{"name":"{{action.content.content_hash.algorithm}}","label":"action➛Content➛Content Hash➛Algorithm","type":"action","ref":""},{"name":"{{action.content.content_hash.value}}","label":"action➛Content➛Content Hash➛Value","type":"action","ref":""},{"name":"{{action.content.content_hash}}","label":"action➛Content➛Content Hash","type":"action","ref":""},{"name":"{{action.content.version}}","label":"action➛Content➛Version","type":"action","ref":""},{"name":"{{action.content.uri}}","label":"action➛Content➛URI","type":"action","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].variable1}}","label":"step➛Pre Processing➛variable1","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].variable2}}","label":"step➛Pre Processing➛variable2","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].subscription_id}}","label":"step➛Pre Processing➛subscription_id","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].resource_group_name}}","label":"step➛Pre Processing➛resource_group_name","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].profile_name}}","label":"step➛Pre Processing➛account_name","type":"step","ref":""},{"name":"{{step[f842ff2b-1496-49fe-9468-b28d368c34e9].status_code}}","label":"step➛Update Account➛Status Code","type":"step","ref":""},{"name":"{{step[f842ff2b-1496-49fe-9468-b28d368c34e9].response_body}}","label":"step➛Update Account➛Response Body","type":"step","ref":""},{"name":"{{step[f842ff2b-1496-49fe-9468-b28d368c34e9].response_headers}}","label":"step➛Update Account➛Response Headers","type":"step","ref":""},{"name":"{{step[7c6b96f3-f53c-4a88-ba96-2fd990095db4].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[7c6b96f3-f53c-4a88-ba96-2fd990095db4].variable1}}","label":"step➛Post Processing➛variable1","type":"step","ref":""},{"name":"{{step[7c6b96f3-f53c-4a88-ba96-2fd990095db4].status}}","label":"step➛Post Processing➛status","type":"step","ref":""},{"name":"{{step[7c6b96f3-f53c-4a88-ba96-2fd990095db4].error_message}}","label":"step➛Post Processing➛error_message","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].account_name}}","label":"step➛Pre Processing➛account_name","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].payload}}","label":"step➛Pre Processing➛payload","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].runbook_name}}","label":"step➛Pre Processing➛runbook_name","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>d2cd6e46db0a1010b160ce4e13961963</latest_snapshot>
+        <latest_snapshot>3294b6a21bd2501050dd41d4bd4bcb47</latest_snapshot>
         <master_snapshot>5a9d29c21b35101050dd41d4bd4bcb47</master_snapshot>
         <name>Update Runbook</name>
         <natlang/>
@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>eabaa1421b35101050dd41d4bd4bcb81</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Update Runbook</sys_name>
         <sys_overrides/>
         <sys_package display_value="Azure Automation Spoke" source="x_snc_azure_automa">ae44450a1bb1101050dd41d4bd4bcb4a</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_eabaa1421b35101050dd41d4bd4bcb81</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-18 11:02:35</sys_updated_on>
+        <sys_updated_on>2020-08-01 11:04:58</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -2626,7 +2626,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Tag,child_name=Tag,child_type=object,child_type_label=Object,child_uiUniqueId=186ece59-f5f8-4436-9946-9d0170baecb4,co_type_name=FDea68154625f110106e3e3513f82bd35b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=c5b5a50c-2703-432d-a362-82071b2f7f94</attributes>
+        <attributes>child_label=Tag,child_name=Tag,child_type=object,child_type_label=Object,child_uiUniqueId=eb575b0e-3b25-41e9-baf8-5d42f02545dd,co_type_name=FDea68154625f110106e3e3513f82bd35b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=c5b5a50c-2703-432d-a362-82071b2f7f94</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2684,14 +2684,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-05 19:53:40</sys_created_on>
         <sys_id>0fbaa1421b35101050dd41d4bd4bcbdf</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-18 11:02:08</sys_updated_on>
+        <sys_updated_on>2020-08-01 11:04:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2950,7 +2950,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=369f99ed-ae95-4192-b917-2cace8bacc46</attributes>
+        <attributes>dynamic=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=369f99ed-ae95-4192-b917-2cace8bacc46</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2964,7 +2964,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>PowerShell</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -3008,14 +3008,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-05 19:53:40</sys_created_on>
         <sys_id>7abaa1421b35101050dd41d4bd4bcba9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-18 10:59:53</sys_updated_on>
+        <sys_updated_on>2020-08-01 11:04:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3027,6 +3027,61 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7abaa1421b35101050dd41d4bd4bcba9^sys_idNOT INa49436a21bd2501050dd41d4bd4bcbc8"/>
+    <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
+        <action_input display_value="">7abaa1421b35101050dd41d4bd4bcba9</action_input>
+        <action_inputs/>
+        <action_type display_value="Look up Runbook By Automation Account">85efeeae1b92501050dd41d4bd4bcbc0</action_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-01 11:04:37</sys_created_on>
+        <sys_id>a49436a21bd2501050dd41d4bd4bcbc8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-01 11:04:37</sys_updated_on>
+    </sys_hub_action_input_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a49436a21bd2501050dd41d4bd4bcbc8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_input_action_instance</document>
+        <document_key>a49436a21bd2501050dd41d4bd4bcbc8</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-01 11:04:37</sys_created_on>
+        <sys_id>6c9436a21bd2501050dd41d4bd4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-01 11:04:37</sys_updated_on>
+        <value>{{action.resource_group_name}}</value>
+        <variable display_value="">81efeeae1b92501050dd41d4bd4bcbd8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_input_action_instance</document>
+        <document_key>a49436a21bd2501050dd41d4bd4bcbc8</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-01 11:04:37</sys_created_on>
+        <sys_id>a89436a21bd2501050dd41d4bd4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-01 11:04:37</sys_updated_on>
+        <value>{{action.account_name}}</value>
+        <variable display_value="">81efeeae1b92501050dd41d4bd4bcbe7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_input_action_instance</document>
+        <document_key>a49436a21bd2501050dd41d4bd4bcbc8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-01 11:04:37</sys_created_on>
+        <sys_id>e49436a21bd2501050dd41d4bd4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-01 11:04:37</sys_updated_on>
+        <value>{{action.subscription_id}}</value>
+        <variable display_value="">c9efeeae1b92501050dd41d4bd4bcbd1</variable>
+    </sys_variable_value>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3116,9 +3171,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-18 11:02:08</sys_created_on>
         <sys_id>6fbdea46db0a1010b160ce4e139619b9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-18 11:02:08</sys_updated_on>
+        <sys_updated_on>2020-08-01 11:04:37</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6fbdea46db0a1010b160ce4e139619b9"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3238,9 +3293,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-05 19:53:40</sys_created_on>
         <sys_id>febaa1421b35101050dd41d4bd4bcb9c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-18 11:02:06</sys_updated_on>
+        <sys_updated_on>2020-08-01 11:04:36</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=febaa1421b35101050dd41d4bd4bcb9c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -6220,7 +6275,28 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_eabaa1421b35101050dd41d4bd4bcb81^sys_idNOT INfabaa1421b35101050dd41d4bd4bcb93,b6baa1421b35101050dd41d4bd4bcb94,72baa1421b35101050dd41d4bd4bcb95,3ebaa1421b35101050dd41d4bd4bcb95,f6baa1421b35101050dd41d4bd4bcb96,b2baa1421b35101050dd41d4bd4bcb97,7ebaa1421b35101050dd41d4bd4bcbac,3abaa1421b35101050dd41d4bd4bcbad,f2baa1421b35101050dd41d4bd4bcbae,bebaa1421b35101050dd41d4bd4bcbae,7abaa1421b35101050dd41d4bd4bcbaf,36baa1421b35101050dd41d4bd4bcbb0"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_eabaa1421b35101050dd41d4bd4bcb81^sys_idNOT IN249436a21bd2501050dd41d4bd4bcbbb,fabaa1421b35101050dd41d4bd4bcb93,b6baa1421b35101050dd41d4bd4bcb94,72baa1421b35101050dd41d4bd4bcb95,3ebaa1421b35101050dd41d4bd4bcb95,f6baa1421b35101050dd41d4bd4bcb96,b2baa1421b35101050dd41d4bd4bcb97"/>
+    <sys_choice field="account_name" table="var__m_sys_hub_action_input_eabaa1421b35101050dd41d4bd4bcb81">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>account_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_eabaa1421b35101050dd41d4bd4bcb81</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-01 11:04:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>249436a21bd2501050dd41d4bd4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-01 11:04:36</sys_updated_on>
+            <value/>
+        </sys_choice>
+    </sys_choice>
     <sys_choice field="resource_group_name" table="var__m_sys_hub_action_input_eabaa1421b35101050dd41d4bd4bcb81">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -6337,122 +6413,6 @@
             <value>haritha</value>
         </sys_choice>
     </sys_choice>
-    <sys_choice field="runbook_type" table="var__m_sys_hub_action_input_eabaa1421b35101050dd41d4bd4bcb81">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>runbook_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>-- None --</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_eabaa1421b35101050dd41d4bd4bcb81</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-05 19:53:40</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7ebaa1421b35101050dd41d4bd4bcbac</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-05 19:53:40</sys_updated_on>
-            <value/>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>runbook_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Graph</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_eabaa1421b35101050dd41d4bd4bcb81</name>
-            <sequence>1</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-05 19:53:40</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>3abaa1421b35101050dd41d4bd4bcbad</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-05 19:53:40</sys_updated_on>
-            <value>Graph</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>runbook_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Graph Power Shell</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_eabaa1421b35101050dd41d4bd4bcb81</name>
-            <sequence>2</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-05 19:53:40</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f2baa1421b35101050dd41d4bd4bcbae</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-05 19:53:40</sys_updated_on>
-            <value>GraphPowerShell</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>runbook_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>GraphPowerShellWorkflow</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_eabaa1421b35101050dd41d4bd4bcb81</name>
-            <sequence>3</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-05 19:53:40</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>bebaa1421b35101050dd41d4bd4bcbae</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-05 19:53:40</sys_updated_on>
-            <value>GraphPowerShellWorkflow</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>runbook_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>PowerShell</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_eabaa1421b35101050dd41d4bd4bcb81</name>
-            <sequence>4</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-05 19:53:40</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7abaa1421b35101050dd41d4bd4bcbaf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-05 19:53:40</sys_updated_on>
-            <value>PowerShell</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>runbook_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>PowerShellWorkflow</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_eabaa1421b35101050dd41d4bd4bcb81</name>
-            <sequence>5</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-05 19:53:40</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>36baa1421b35101050dd41d4bd4bcbb0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-05 19:53:40</sys_updated_on>
-            <value>PowerShellWorkflow</value>
-        </sys_choice>
-    </sys_choice>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_eabaa1421b35101050dd41d4bd4bcb81^sys_idNOT IN33bae1421b35101050dd41d4bd4bcba3,b3bae1421b35101050dd41d4bd4bcb9d"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>error_message</element>
@@ -6545,17 +6505,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Update Runbook">eabaa1421b35101050dd41d4bd4bcb81</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"a4ada9c21b35101050dd41d4bd4bcbb3","name":"plan"}}</plan>
-        <snapshot>d2cd6e46db0a1010b160ce4e13961963</snapshot>
+        <snapshot>3294b6a21bd2501050dd41d4bd4bcb47</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-05 20:06:20</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a4ada9c21b35101050dd41d4bd4bcbb3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-18 11:02:42</sys_updated_on>
+        <sys_updated_on>2020-08-01 11:05:05</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -9019,7 +8979,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=369f99ed-ae95-4192-b917-2cace8bacc46</attributes>
+        <attributes>dynamic=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=369f99ed-ae95-4192-b917-2cace8bacc46</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -9033,7 +8993,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>PowerShell</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -9077,14 +9037,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-05 20:06:12</sys_created_on>
         <sys_id>229d29c21b35101050dd41d4bd4bcb6c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-18 11:00:08</sys_updated_on>
+        <sys_updated_on>2020-08-01 11:04:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -9096,11 +9056,66 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=229d29c21b35101050dd41d4bd4bcb6c^sys_idNOT IN89a4f6a21bd2501050dd41d4bd4bcba9"/>
+    <sys_hub_action_input_action_instance action="INSERT_OR_UPDATE">
+        <action_input display_value="">229d29c21b35101050dd41d4bd4bcb6c</action_input>
+        <action_inputs/>
+        <action_type display_value="Look up Runbook By Automation Account">85efeeae1b92501050dd41d4bd4bcbc0</action_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-01 11:04:56</sys_created_on>
+        <sys_id>89a4f6a21bd2501050dd41d4bd4bcba9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-01 11:04:56</sys_updated_on>
+    </sys_hub_action_input_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=89a4f6a21bd2501050dd41d4bd4bcba9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_input_action_instance</document>
+        <document_key>89a4f6a21bd2501050dd41d4bd4bcba9</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-01 11:04:56</sys_created_on>
+        <sys_id>41a4f6a21bd2501050dd41d4bd4bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-01 11:04:56</sys_updated_on>
+        <value>{{action.resource_group_name}}</value>
+        <variable display_value="">81efeeae1b92501050dd41d4bd4bcbd8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_input_action_instance</document>
+        <document_key>89a4f6a21bd2501050dd41d4bd4bcba9</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-01 11:04:56</sys_created_on>
+        <sys_id>8da4f6a21bd2501050dd41d4bd4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-01 11:04:56</sys_updated_on>
+        <value>{{action.account_name}}</value>
+        <variable display_value="">81efeeae1b92501050dd41d4bd4bcbe7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_input_action_instance</document>
+        <document_key>89a4f6a21bd2501050dd41d4bd4bcba9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-01 11:04:56</sys_created_on>
+        <sys_id>c9a4f6a21bd2501050dd41d4bd4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-01 11:04:56</sys_updated_on>
+        <value>{{action.subscription_id}}</value>
+        <variable display_value="">c9efeeae1b92501050dd41d4bd4bcbd1</variable>
+    </sys_variable_value>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FDc1ddae46650a10105dfcf2718e1cecd0,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=2be26305-a622-4cf1-8f53-877a5faa91a1</attributes>
+        <attributes>co_type_name=FD0da4f6a251d2501096958dca8d8f7091,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=2be26305-a622-4cf1-8f53-877a5faa91a1</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -9158,14 +9173,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-05 20:06:12</sys_created_on>
         <sys_id>269d29c21b35101050dd41d4bd4bcb84</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-18 11:02:32</sys_updated_on>
+        <sys_updated_on>2020-08-01 11:04:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -9181,7 +9196,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=Tag,child_name=Tag,child_type=object,child_type_label=Object,child_uiUniqueId=186ece59-f5f8-4436-9946-9d0170baecb4,co_type_name=FD41ddae46bd0a10105cf09f89252d53d2,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=c5b5a50c-2703-432d-a362-82071b2f7f94</attributes>
+        <attributes>child_label=Tag,child_name=Tag,child_type=object,child_type_label=Object,child_uiUniqueId=eb575b0e-3b25-41e9-baf8-5d42f02545dd,co_type_name=FD89a4f6a2abd25010897019c4a01ddd93,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.object,uiTypeLabel=Array.Object,uiUniqueId=c5b5a50c-2703-432d-a362-82071b2f7f94</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -9239,14 +9254,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-05 20:06:13</sys_created_on>
         <sys_id>3e9d29c21b35101050dd41d4bd4bcb95</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-18 11:02:32</sys_updated_on>
+        <sys_updated_on>2020-08-01 11:04:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -9347,9 +9362,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-05 20:06:12</sys_created_on>
         <sys_id>a69d29c21b35101050dd41d4bd4bcb5f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-18 11:02:30</sys_updated_on>
+        <sys_updated_on>2020-08-01 11:04:55</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a69d29c21b35101050dd41d4bd4bcb5f"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -9617,9 +9632,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-18 11:02:31</sys_created_on>
         <sys_id>d5ddee46db0a1010b160ce4e13961903</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-18 11:02:31</sys_updated_on>
+        <sys_updated_on>2020-08-01 11:04:55</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d5ddee46db0a1010b160ce4e13961903"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -12775,7 +12790,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_5a9d29c21b35101050dd41d4bd4bcb47^sys_idNOT IN5dddae46db0a1010b160ce4e139619ff,a29d29c21b35101050dd41d4bd4bcb56,6e9d29c21b35101050dd41d4bd4bcb56,2a9d29c21b35101050dd41d4bd4bcb57,e29d29c21b35101050dd41d4bd4bcb58,ae9d29c21b35101050dd41d4bd4bcb58,6a9d29c21b35101050dd41d4bd4bcb59,269d29c21b35101050dd41d4bd4bcb6f,ee9d29c21b35101050dd41d4bd4bcb6f,aa9d29c21b35101050dd41d4bd4bcb70,669d29c21b35101050dd41d4bd4bcb71,229d29c21b35101050dd41d4bd4bcb72,ea9d29c21b35101050dd41d4bd4bcb72"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_5a9d29c21b35101050dd41d4bd4bcb47^sys_idNOT IN5dddae46db0a1010b160ce4e139619ff,a29d29c21b35101050dd41d4bd4bcb56,6e9d29c21b35101050dd41d4bd4bcb56,2a9d29c21b35101050dd41d4bd4bcb57,e29d29c21b35101050dd41d4bd4bcb58,ae9d29c21b35101050dd41d4bd4bcb58,6a9d29c21b35101050dd41d4bd4bcb59,269d29c21b35101050dd41d4bd4bcb6f"/>
     <sys_choice field="account_name" table="var__m_sys_hub_action_input_5a9d29c21b35101050dd41d4bd4bcb47">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -12932,101 +12947,6 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-07-05 20:06:12</sys_updated_on>
             <value/>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>runbook_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Graph</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_5a9d29c21b35101050dd41d4bd4bcb47</name>
-            <sequence>1</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-05 20:06:12</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>ee9d29c21b35101050dd41d4bd4bcb6f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-05 20:06:12</sys_updated_on>
-            <value>Graph</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>runbook_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Graph Power Shell</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_5a9d29c21b35101050dd41d4bd4bcb47</name>
-            <sequence>2</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-05 20:06:12</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>aa9d29c21b35101050dd41d4bd4bcb70</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-05 20:06:12</sys_updated_on>
-            <value>GraphPowerShell</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>runbook_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>GraphPowerShellWorkflow</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_5a9d29c21b35101050dd41d4bd4bcb47</name>
-            <sequence>3</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-05 20:06:12</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>669d29c21b35101050dd41d4bd4bcb71</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-05 20:06:12</sys_updated_on>
-            <value>GraphPowerShellWorkflow</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>runbook_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>PowerShell</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_5a9d29c21b35101050dd41d4bd4bcb47</name>
-            <sequence>4</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-05 20:06:12</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>229d29c21b35101050dd41d4bd4bcb72</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-05 20:06:12</sys_updated_on>
-            <value>PowerShell</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>runbook_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>PowerShellWorkflow</label>
-            <language>en</language>
-            <name>var__m_sys_hub_action_input_5a9d29c21b35101050dd41d4bd4bcb47</name>
-            <sequence>5</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-05 20:06:12</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>ea9d29c21b35101050dd41d4bd4bcb72</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-05 20:06:12</sys_updated_on>
-            <value>PowerShellWorkflow</value>
         </sys_choice>
     </sys_choice>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_5a9d29c21b35101050dd41d4bd4bcb47^sys_idNOT IN5f9d69c21b35101050dd41d4bd4bcb8a,df9d69c21b35101050dd41d4bd4bcb84"/>

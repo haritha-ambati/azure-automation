@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDe3583a6634d25010c45e09b7db1246b3</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>ae44450a1bb1101050dd41d4bd4bcb4a</scope_name>
+        <serialized_content>{"FlowDesigner:FDe3583a6634d25010c45e09b7db1246b3":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\"}"},"properties":{"lastModifiedTime":"String","lastModifiedTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Last Modified Time\",\"mandatory\":\"true\",\"order\":\"14\",\"max_length\":\"0\"}"},"creationTime":"String","creationTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Creation Time\",\"mandatory\":\"true\",\"order\":\"13\",\"max_length\":\"0\"}"},"isEnabled":"String","isEnabled.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Is Enabled\",\"mandatory\":\"true\",\"order\":\"8\",\"max_length\":\"0\"}"},"expiryTime":"String","expiryTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Expiry Time\",\"mandatory\":\"true\",\"order\":\"7\",\"max_length\":\"0\"}"},"description":"String","description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Description\",\"mandatory\":\"true\",\"order\":\"5\",\"max_length\":\"0\"}"},"timeZone":"String","timeZone.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Time Zone\",\"mandatory\":\"true\",\"order\":\"12\",\"max_length\":\"0\"}"},"interval":"String","interval.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Interval\",\"mandatory\":\"true\",\"order\":\"10\",\"max_length\":\"0\"}"},"startTime":"String","startTime.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Start Time\",\"mandatory\":\"true\",\"order\":\"6\",\"max_length\":\"0\"}"},"frequency":"String","frequency.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Frequency\",\"mandatory\":\"true\",\"order\":\"11\",\"max_length\":\"0\"}"},"nextRun":"String","nextRun.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Next Run\",\"mandatory\":\"true\",\"order\":\"9\",\"max_length\":\"0\"}"}},"properties.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Properties\",\"mandatory\":\"true\",\"order\":\"4\",\"max_length\":\"0\"}"}},"FlowDesigner:FDe3583a6634d25010c45e09b7db1246b3.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDe3583a6634d25010c45e09b7db1246b3\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Schedule\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"65000\",\"uiUniqueId\":\"bb47da07-9675-44da-83ab-8d346b94f200\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-01 11:21:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a7583a661bd2501050dd41d4bd4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDe3583a6634d25010c45e09b7db1246b3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Azure Automation Spoke" source="x_snc_azure_automa">ae44450a1bb1101050dd41d4bd4bcb4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
+        <sys_update_name>sys_complex_object_a7583a661bd2501050dd41d4bd4bcbb3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-01 11:21:12</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

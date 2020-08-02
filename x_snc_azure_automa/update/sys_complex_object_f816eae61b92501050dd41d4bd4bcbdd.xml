@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD3816eae63b925010c898b375cabc68dd</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>ae44450a1bb1101050dd41d4bd4bcb4a</scope_name>
+        <serialized_content>{"FlowDesigner:FD3816eae63b925010c898b375cabc68dd":{"schedule":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"true\",\"order\":\"8\",\"max_length\":\"0\"}"}},"schedule.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Schedule\",\"mandatory\":\"true\",\"order\":\"7\",\"max_length\":\"0\"}"},"runOn":"String","runOn.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Run On\",\"mandatory\":\"true\",\"order\":\"9\",\"max_length\":\"0\"}"},"parameters":[{"$192_parameters":{"Value":"String","Value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Value\",\"mandatory\":\"true\",\"order\":\"13\",\"max_length\":\"0\"}"},"Name":"String","Name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"true\",\"order\":\"12\",\"max_length\":\"0\"}"}}}],"parameters.$field_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Parameters\",\"mandatory\":\"true\",\"child_name\":\"Parameter\",\"uiTypeLabel\":\"Array.Object\",\"child_label\":\"Parameter\",\"child_type_label\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"10\",\"max_length\":\"0\",\"child_uiUniqueId\":\"6ca757ae-7d9f-4951-835c-22c2b0986577\"}"},"properties":{"jobScheduleId":"String","jobScheduleId.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Job Schedule ID\",\"mandatory\":\"true\",\"order\":\"4\",\"max_length\":\"0\"}"},"runbook":{"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Name\",\"mandatory\":\"true\",\"order\":\"6\",\"max_length\":\"0\"}"}},"runbook.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Runbook\",\"mandatory\":\"true\",\"order\":\"5\",\"max_length\":\"0\"}"}},"properties.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"Properties\",\"mandatory\":\"true\",\"order\":\"3\",\"max_length\":\"0\"}"}},"FlowDesigner:FD3816eae63b925010c898b375cabc68dd.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Job Schedule\",\"mandatory\":\"true\",\"uiUniqueId\":\"7d3159eb-2859-457c-b7ac-22b1b6c67ab9\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD3816eae63b925010c898b375cabc68dd\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-01 10:01:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f816eae61b92501050dd41d4bd4bcbdd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FD3816eae63b925010c898b375cabc68dd</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Azure Automation Spoke" source="x_snc_azure_automa">ae44450a1bb1101050dd41d4bd4bcb4a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
+        <sys_update_name>sys_complex_object_f816eae61b92501050dd41d4bd4bcbdd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-01 10:04:25</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

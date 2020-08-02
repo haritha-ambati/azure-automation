@@ -10,23 +10,23 @@
         <copied_from>e7d9e152db711010b160ce4e13961949</copied_from>
         <copied_from_name>Get RunBook Content</copied_from_name>
         <description/>
-        <ih_action>false</ih_action>
+        <ih_action>true</ih_action>
         <internal_name>get_job_output</internal_name>
         <label_cache>[{"name":"{{action.subscription_id}}","label":"action➛Subscription ID","type":"action","ref":""},{"name":"{{action.resource_group_name}}","label":"action➛Resource Group","type":"action","ref":""},{"name":"{{action.profile_name}}","label":"action➛Profile Name","type":"action","ref":""},{"name":"{{action.account}}","label":"action➛account","type":"action","ref":""},{"name":"{{action.account_name}}","label":"action➛Account Name","type":"action","ref":""},{"name":"{{action.tags}}","label":"action➛Tags","type":"action","ref":""},{"name":"{{action.tags.Tag}}","label":"action➛Tags➛Tag","type":"action","ref":""},{"name":"{{action.tags.Tag.Key}}","label":"action➛Tags➛Tag➛Key","type":"action","ref":""},{"name":"{{action.tags.Tag.Value}}","label":"action➛Tags➛Tag➛Value","type":"action","ref":""},{"name":"{{action._}}","label":"action➛","type":"action","ref":""},{"name":"{{action.location}}","label":"action➛Location","type":"action","ref":""},{"name":"{{action.sku}}","label":"action➛SKU","type":"action","ref":""},{"name":"{{action.sku.Name}}","label":"action➛SKU➛Name","type":"action","ref":""},{"name":"{{action.sku.Capacity}}","label":"action➛SKU➛Capacity","type":"action","ref":""},{"name":"{{action.sku._}}","label":"action➛SKU","type":"action","ref":""},{"name":"{{action.sku.Family}}","label":"action➛SKU➛Family","type":"action","ref":""},{"name":"{{action.sku.name}}","label":"action➛SKU➛Name","type":"action","ref":""},{"name":"{{action.sku.capacity}}","label":"action➛SKU➛Capacity","type":"action","ref":""},{"name":"{{action.sku.family}}","label":"action➛SKU➛Family","type":"action","ref":""},{"name":"{{action.job_name}}","label":"action➛Job Name","type":"action","ref":""},{"name":"{{action.runbook_name}}","label":"action➛Runbook Name","type":"action","ref":""},{"name":"{{action.properties}}","label":"action➛Properties","type":"action","ref":""},{"name":"{{action.parameters}}","label":"action➛Parameters","type":"action","ref":""},{"name":"{{action.parameters.Parameter.Name}}","label":"action➛Parameters➛Parameter➛Name","type":"action","ref":""},{"name":"{{action.parameters.Parameter.Value}}","label":"action➛Parameters➛Parameter➛Value","type":"action","ref":""},{"name":"{{action.parameters.Parameter}}","label":"action➛Parameters➛Parameter","type":"action","ref":""},{"name":"{{action.run_on}}","label":"action➛Run On","type":"action","ref":""},{"name":"{{action.job_identifier}}","label":"action➛Identifier","type":"action","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].variable}}","label":"step➛Pre Processing➛variable","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].variable1}}","label":"step➛Pre Processing➛variable1","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].variable2}}","label":"step➛Pre Processing➛variable2","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].subscription_id}}","label":"step➛Pre Processing➛subscription_id","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].resource_group_name}}","label":"step➛Pre Processing➛resource_group_name","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].profile_name}}","label":"step➛Pre Processing➛account_name","type":"step","ref":""},{"name":"{{step[f842ff2b-1496-49fe-9468-b28d368c34e9].status_code}}","label":"Get Job Outputstep➛➛Status Code","type":"step","ref":""},{"name":"{{step[f842ff2b-1496-49fe-9468-b28d368c34e9].response_body}}","label":"Get Job Outputstep➛➛Response Body","type":"step","ref":""},{"name":"{{step[f842ff2b-1496-49fe-9468-b28d368c34e9].response_headers}}","label":"Get Job Outputstep➛➛Response Headers","type":"step","ref":""},{"name":"{{step[7c6b96f3-f53c-4a88-ba96-2fd990095db4].variable}}","label":"step➛Post Processing➛variable","type":"step","ref":""},{"name":"{{step[7c6b96f3-f53c-4a88-ba96-2fd990095db4].variable1}}","label":"step➛Post Processing➛variable1","type":"step","ref":""},{"name":"{{step[7c6b96f3-f53c-4a88-ba96-2fd990095db4].status}}","label":"step➛Post Processing➛status","type":"step","ref":""},{"name":"{{step[7c6b96f3-f53c-4a88-ba96-2fd990095db4].error_message}}","label":"step➛Post Processing➛error_message","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].account_name}}","label":"step➛Pre Processing➛account_name","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].payload}}","label":"step➛Pre Processing➛payload","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].job_name}}","label":"step➛Pre Processing➛job_name","type":"step","ref":""},{"name":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].job_identifier}}","label":"step➛Pre Processing➛job_identifier","type":"step","ref":""},{"name":"{{step[7c6b96f3-f53c-4a88-ba96-2fd990095db4].output}}","label":"step➛Post Processing➛output","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>0da86afe1b82101050dd41d4bd4bcb50</latest_snapshot>
+        <latest_snapshot>aa960c43db9a1010b160ce4e13961900</latest_snapshot>
         <master_snapshot>b1c37d1adb711010b160ce4e13961964</master_snapshot>
         <name>Get Job Output</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:10:42</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6783391adb711010b160ce4e139619c5</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Get Job Output</sys_name>
         <sys_overrides/>
         <sys_package display_value="Azure Automation Spoke" source="x_snc_azure_automa">ae44450a1bb1101050dd41d4bd4bcb4a</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_6783391adb711010b160ce4e139619c5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-20 18:38:27</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:34</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -108,10 +108,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:10:44</sys_created_on>
         <sys_id>5493791adb711010b160ce4e1396195d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-20 18:38:27</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:25</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5493791adb711010b160ce4e1396195d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -122,17 +122,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:10:45</sys_created_on>
         <sys_id>5493791adb711010b160ce4e13961983</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-20 18:38:27</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:25</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var successCodes = ['200', '202', '201'];
-    var response = JSON.parse(inputs.response_body);
     var arrayUtil = new global.ArrayUtil();
     if (arrayUtil.contains(successCodes, inputs.status)) {
         outputs.status = 'Success';
-     	outputs.output = response;
-    } else {
+     	outputs.output = inputs.response_body;
+    } else {   
+        var response = JSON.parse(inputs.response_body);
         outputs.status = 'Error';
         if (response.message)
             outputs.error_message = response.message;
@@ -721,10 +721,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:10:43</sys_created_on>
         <sys_id>7f83791adb711010b160ce4e13961906</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:10:44</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:25</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7f83791adb711010b160ce4e13961906"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -735,14 +735,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:10:44</sys_created_on>
         <sys_id>4c93791adb711010b160ce4e13961941</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:10:44</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:25</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var utils = new AzureAutomationUtils();
     utils.validateInputVariables(inputs, outputs);
-    utils.validateMandatoryVariables(inputs, ['subscription_id', 'resource_group_name','account_name','job_name','job_identifier']);
-    utils.mapToOutputFromInput(inputs, outputs, ['subscription_id', 'resource_group_name','account_name','job_name','job_identifier']);
+    utils.validateMandatoryVariables(inputs, ['subscription_id', 'resource_group_name','account_name','job_name']);
+    utils.mapToOutputFromInput(inputs, outputs, ['subscription_id', 'resource_group_name','account_name','job_name']);
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
@@ -845,7 +845,7 @@
         <table>var__m_sys_hub_step_ext_input_7f83791adb711010b160ce4e13961906</table>
         <value>{{action.subscription_id}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=7f83791adb711010b160ce4e13961906^sys_idNOT IN0493791adb711010b160ce4e1396190f,4493791adb711010b160ce4e13961914,8493791adb711010b160ce4e13961919,bb83791adb711010b160ce4e13961909,c493791adb711010b160ce4e1396191e"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7f83791adb711010b160ce4e13961906^sys_idNOT IN0493791adb711010b160ce4e1396190f,4493791adb711010b160ce4e13961914,8493791adb711010b160ce4e13961919,bb83791adb711010b160ce4e13961909"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1170,88 +1170,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>job_identifier</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label/>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Pre Processing">7f83791adb711010b160ce4e13961906</model>
-        <model_id>7f83791adb711010b160ce4e13961906</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_7f83791adb711010b160ce4e13961906</name>
-        <next_element/>
-        <order>400</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-06 15:10:43</sys_created_on>
-        <sys_id>c493791adb711010b160ce4e1396191e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:10:46</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=7f83791adb711010b160ce4e13961906^sys_idNOT IN0093791adb711010b160ce4e13961924,0493791adb711010b160ce4e13961939,4093791adb711010b160ce4e13961934,8c93791adb711010b160ce4e1396192e,c893791adb711010b160ce4e13961929"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7f83791adb711010b160ce4e13961906^sys_idNOT IN0093791adb711010b160ce4e13961924,4093791adb711010b160ce4e13961934,8c93791adb711010b160ce4e1396192e,c893791adb711010b160ce4e13961929"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1322,87 +1241,6 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-06 15:10:43</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d0173ae3-5f42-462b-b4ea-67d80f62dfc0</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>job_identifier</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>job_identifier</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Pre Processing">7f83791adb711010b160ce4e13961906</model>
-        <model_id>7f83791adb711010b160ce4e13961906</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_7f83791adb711010b160ce4e13961906</name>
-        <next_element/>
-        <order>5</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-06 15:10:44</sys_created_on>
-        <sys_id>0493791adb711010b160ce4e13961939</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:10:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1673,10 +1511,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:10:44</sys_created_on>
         <sys_id>c093791adb711010b160ce4e13961946</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:11:34</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:25</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c093791adb711010b160ce4e13961946"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1743,10 +1581,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:10:44</sys_created_on>
         <sys_id>9893791adb711010b160ce4e13961958</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:10:44</sys_updated_on>
-        <value>{}</value>
+        <sys_updated_on>2020-08-02 11:41:25</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"clientRequestId","value":""}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1856,11 +1694,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:10:44</sys_created_on>
         <sys_id>9493791adb711010b160ce4e13961957</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:10:44</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:25</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{"type":"ADV_NV","value":[{"name":"clientRequestId","value":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].job_identifier}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>query_params</field>
@@ -1968,7 +1806,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_action_input action="delete_multiple" query="model=6783391adb711010b160ce4e139619c5^sys_idNOT IN0933f28adb0a1010b160ce4e139619fa,3783391adb711010b160ce4e139619e1,3b83391adb711010b160ce4e139619cf,3f83391adb711010b160ce4e139619c9,7783391adb711010b160ce4e139619ff"/>
+    <sys_hub_action_input action="delete_multiple" query="model=6783391adb711010b160ce4e139619c5^sys_idNOT IN0933f28adb0a1010b160ce4e139619fa,3783391adb711010b160ce4e139619e1,3b83391adb711010b160ce4e139619cf,3f83391adb711010b160ce4e139619c9"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2058,9 +1896,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-18 11:26:00</sys_created_on>
         <sys_id>1d33368adb0a1010b160ce4e13961902</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-20 18:38:25</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:24</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1d33368adb0a1010b160ce4e13961902"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2261,9 +2099,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:10:43</sys_created_on>
         <sys_id>7383391adb711010b160ce4e139619db</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-20 18:38:25</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:24</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7383391adb711010b160ce4e139619db"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2350,87 +2188,6 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-06 15:10:42</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=bfbcedc9-23c3-4b81-8f02-28c83e20a272</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>job_identifier</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Identifier</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Get Job Output">6783391adb711010b160ce4e139619c5</model>
-        <model_id>6783391adb711010b160ce4e139619c5</model_id>
-        <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_input_6783391adb711010b160ce4e139619c5</name>
-        <next_element/>
-        <order>5</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-06 15:10:43</sys_created_on>
-        <sys_id>7783391adb711010b160ce4e139619ff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:10:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2709,10 +2466,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:10:44</sys_created_on>
         <sys_id>5493791adb711010b160ce4e1396195d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-20 18:38:27</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:25</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5493791adb711010b160ce4e1396195d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2723,17 +2480,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:10:45</sys_created_on>
         <sys_id>5493791adb711010b160ce4e13961983</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-20 18:38:27</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:25</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var successCodes = ['200', '202', '201'];
-    var response = JSON.parse(inputs.response_body);
     var arrayUtil = new global.ArrayUtil();
     if (arrayUtil.contains(successCodes, inputs.status)) {
         outputs.status = 'Success';
-     	outputs.output = response;
-    } else {
+     	outputs.output = inputs.response_body;
+    } else {   
+        var response = JSON.parse(inputs.response_body);
         outputs.status = 'Error';
         if (response.message)
             outputs.error_message = response.message;
@@ -3322,10 +3079,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:10:43</sys_created_on>
         <sys_id>7f83791adb711010b160ce4e13961906</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:10:44</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:25</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7f83791adb711010b160ce4e13961906"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -3336,14 +3093,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:10:44</sys_created_on>
         <sys_id>4c93791adb711010b160ce4e13961941</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:10:44</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:25</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var utils = new AzureAutomationUtils();
     utils.validateInputVariables(inputs, outputs);
-    utils.validateMandatoryVariables(inputs, ['subscription_id', 'resource_group_name','account_name','job_name','job_identifier']);
-    utils.mapToOutputFromInput(inputs, outputs, ['subscription_id', 'resource_group_name','account_name','job_name','job_identifier']);
+    utils.validateMandatoryVariables(inputs, ['subscription_id', 'resource_group_name','account_name','job_name']);
+    utils.mapToOutputFromInput(inputs, outputs, ['subscription_id', 'resource_group_name','account_name','job_name']);
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
@@ -3446,7 +3203,7 @@
         <table>var__m_sys_hub_step_ext_input_7f83791adb711010b160ce4e13961906</table>
         <value>{{action.subscription_id}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=7f83791adb711010b160ce4e13961906^sys_idNOT IN0493791adb711010b160ce4e1396190f,4493791adb711010b160ce4e13961914,8493791adb711010b160ce4e13961919,bb83791adb711010b160ce4e13961909,c493791adb711010b160ce4e1396191e"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7f83791adb711010b160ce4e13961906^sys_idNOT IN0493791adb711010b160ce4e1396190f,4493791adb711010b160ce4e13961914,8493791adb711010b160ce4e13961919,bb83791adb711010b160ce4e13961909"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3771,88 +3528,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>job_identifier</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label/>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Pre Processing">7f83791adb711010b160ce4e13961906</model>
-        <model_id>7f83791adb711010b160ce4e13961906</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_7f83791adb711010b160ce4e13961906</name>
-        <next_element/>
-        <order>400</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-06 15:10:43</sys_created_on>
-        <sys_id>c493791adb711010b160ce4e1396191e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:10:46</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=7f83791adb711010b160ce4e13961906^sys_idNOT IN0093791adb711010b160ce4e13961924,0493791adb711010b160ce4e13961939,4093791adb711010b160ce4e13961934,8c93791adb711010b160ce4e1396192e,c893791adb711010b160ce4e13961929"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7f83791adb711010b160ce4e13961906^sys_idNOT IN0093791adb711010b160ce4e13961924,4093791adb711010b160ce4e13961934,8c93791adb711010b160ce4e1396192e,c893791adb711010b160ce4e13961929"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3923,87 +3599,6 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-06 15:10:43</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d0173ae3-5f42-462b-b4ea-67d80f62dfc0</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>job_identifier</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>job_identifier</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Pre Processing">7f83791adb711010b160ce4e13961906</model>
-        <model_id>7f83791adb711010b160ce4e13961906</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_7f83791adb711010b160ce4e13961906</name>
-        <next_element/>
-        <order>5</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-06 15:10:44</sys_created_on>
-        <sys_id>0493791adb711010b160ce4e13961939</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:10:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -4274,10 +3869,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:10:44</sys_created_on>
         <sys_id>c093791adb711010b160ce4e13961946</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:11:34</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:25</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c093791adb711010b160ce4e13961946"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4344,10 +3939,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:10:44</sys_created_on>
         <sys_id>9893791adb711010b160ce4e13961958</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:10:44</sys_updated_on>
-        <value>{}</value>
+        <sys_updated_on>2020-08-02 11:41:25</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"clientRequestId","value":""}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -4457,11 +4052,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:10:44</sys_created_on>
         <sys_id>9493791adb711010b160ce4e13961957</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:10:44</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:25</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{"type":"ADV_NV","value":[{"name":"clientRequestId","value":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].job_identifier}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>query_params</field>
@@ -4569,7 +4164,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_6783391adb711010b160ce4e139619c5^sys_idNOT IN3783391adb711010b160ce4e139619e5,7783391adb711010b160ce4e139619ce,7783791adb711010b160ce4e13961903,9533368adb0a1010b160ce4e13961901,ff83391adb711010b160ce4e139619d9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_6783391adb711010b160ce4e139619c5^sys_idNOT IN3783391adb711010b160ce4e139619e5,7783391adb711010b160ce4e139619ce,9533368adb0a1010b160ce4e13961901,ff83391adb711010b160ce4e139619d9"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>job_name</element>
         <help/>
@@ -4613,29 +4208,6 @@
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-06 15:10:42</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>job_identifier</element>
-        <help/>
-        <hint/>
-        <label>Identifier</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_6783391adb711010b160ce4e139619c5</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-06 15:10:43</sys_created_on>
-        <sys_id>7783791adb711010b160ce4e13961903</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Azure Automation Spoke" source="x_snc_azure_automa">ae44450a1bb1101050dd41d4bd4bcb4a</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:10:43</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -4938,17 +4510,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Get Job Output">6783391adb711010b160ce4e139619c5</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"1fc3fd1adb711010b160ce4e13961905","name":"plan"}}</plan>
-        <snapshot>0da86afe1b82101050dd41d4bd4bcb50</snapshot>
+        <snapshot>aa960c43db9a1010b160ce4e13961900</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:11:46</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1fc3fd1adb711010b160ce4e13961905</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-20 18:35:26</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:38</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -5056,10 +4628,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:11:41</sys_created_on>
         <sys_id>12c37d1adb711010b160ce4e139619e0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-20 18:35:22</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:34</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=12c37d1adb711010b160ce4e139619e0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5070,18 +4642,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:11:42</sys_created_on>
         <sys_id>12c3bd1adb711010b160ce4e13961906</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-20 18:35:22</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:34</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var successCodes = ['200', '202', '201'];
-    var response = JSON.parse(inputs.response_body);
     var arrayUtil = new global.ArrayUtil();
     if (arrayUtil.contains(successCodes, inputs.status)) {
         outputs.status = 'Success';
-        if (response)
-            outputs.output = response;
-    } else {
+     	outputs.output = inputs.response_body;
+    } else {   
+        var response = JSON.parse(inputs.response_body);
         outputs.status = 'Error';
         if (response.message)
             outputs.error_message = response.message;
@@ -5670,10 +5241,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:11:40</sys_created_on>
         <sys_id>39c37d1adb711010b160ce4e13961989</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:11:41</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:34</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=39c37d1adb711010b160ce4e13961989"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -5684,14 +5255,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:11:41</sys_created_on>
         <sys_id>0ac37d1adb711010b160ce4e139619c4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:11:41</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:34</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var utils = new AzureAutomationUtils();
     utils.validateInputVariables(inputs, outputs);
-    utils.validateMandatoryVariables(inputs, ['subscription_id', 'resource_group_name','account_name','job_name','job_identifier']);
-    utils.mapToOutputFromInput(inputs, outputs, ['subscription_id', 'resource_group_name','account_name','job_name','job_identifier']);
+    utils.validateMandatoryVariables(inputs, ['subscription_id', 'resource_group_name','account_name','job_name']);
+    utils.mapToOutputFromInput(inputs, outputs, ['subscription_id', 'resource_group_name','account_name','job_name']);
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
@@ -5794,7 +5365,7 @@
         <table>var__m_sys_hub_step_ext_input_39c37d1adb711010b160ce4e13961989</table>
         <value>{{action.subscription_id}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=39c37d1adb711010b160ce4e13961989^sys_idNOT IN31c37d1adb711010b160ce4e13961997,42c37d1adb711010b160ce4e1396199c,75c37d1adb711010b160ce4e1396198c,82c37d1adb711010b160ce4e139619a1,fdc37d1adb711010b160ce4e13961991"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=39c37d1adb711010b160ce4e13961989^sys_idNOT IN31c37d1adb711010b160ce4e13961997,42c37d1adb711010b160ce4e1396199c,75c37d1adb711010b160ce4e1396198c,fdc37d1adb711010b160ce4e13961991"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -6066,87 +5637,6 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>job_identifier</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>job_identifier</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Pre Processing">39c37d1adb711010b160ce4e13961989</model>
-        <model_id>39c37d1adb711010b160ce4e13961989</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_39c37d1adb711010b160ce4e13961989</name>
-        <next_element/>
-        <order>400</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-06 15:11:41</sys_created_on>
-        <sys_id>82c37d1adb711010b160ce4e139619a1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:11:41</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
         <element>resource_group_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
@@ -6200,7 +5690,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=39c37d1adb711010b160ce4e13961989^sys_idNOT IN0ec37d1adb711010b160ce4e139619b6,4ac37d1adb711010b160ce4e139619b1,86c37d1adb711010b160ce4e139619ac,cac37d1adb711010b160ce4e139619a6,cec37d1adb711010b160ce4e139619bb"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=39c37d1adb711010b160ce4e13961989^sys_idNOT IN0ec37d1adb711010b160ce4e139619b6,4ac37d1adb711010b160ce4e139619b1,86c37d1adb711010b160ce4e139619ac,cac37d1adb711010b160ce4e139619a6"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -6525,87 +6015,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d0173ae3-5f42-462b-b4ea-67d80f62dfc0</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>job_identifier</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>job_identifier</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Pre Processing">39c37d1adb711010b160ce4e13961989</model>
-        <model_id>39c37d1adb711010b160ce4e13961989</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_39c37d1adb711010b160ce4e13961989</name>
-        <next_element/>
-        <order>5</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-06 15:11:41</sys_created_on>
-        <sys_id>cec37d1adb711010b160ce4e139619bb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:11:41</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Get Job Output">b1c37d1adb711010b160ce4e13961964</action>
         <cid>f842ff2b-1496-49fe-9468-b28d368c34e9</cid>
@@ -6622,10 +6031,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:11:41</sys_created_on>
         <sys_id>8ec37d1adb711010b160ce4e139619c8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:11:41</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:34</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8ec37d1adb711010b160ce4e139619c8"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -6678,10 +6087,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:11:41</sys_created_on>
         <sys_id>46c37d1adb711010b160ce4e139619db</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:11:41</sys_updated_on>
-        <value>{}</value>
+        <sys_updated_on>2020-08-02 11:41:34</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"clientRequestId","value":""}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -6805,11 +6214,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:11:41</sys_created_on>
         <sys_id>42c37d1adb711010b160ce4e139619da</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:11:41</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:34</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{"type":"ADV_NV","value":[{"name":"clientRequestId","value":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].job_identifier}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>query_params</field>
@@ -6917,7 +6326,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_action_input action="delete_multiple" query="model=b1c37d1adb711010b160ce4e13961964^sys_idNOT IN1733b68adb0a1010b160ce4e13961944,31c37d1adb711010b160ce4e13961982,71c37d1adb711010b160ce4e1396196b,75c37d1adb711010b160ce4e13961965,7dc37d1adb711010b160ce4e1396197c"/>
+    <sys_hub_action_input action="delete_multiple" query="model=b1c37d1adb711010b160ce4e13961964^sys_idNOT IN1733b68adb0a1010b160ce4e13961944,71c37d1adb711010b160ce4e1396196b,75c37d1adb711010b160ce4e13961965,7dc37d1adb711010b160ce4e1396197c"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -7007,9 +6416,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-18 11:26:09</sys_created_on>
         <sys_id>5333b68adb0a1010b160ce4e1396194b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-20 18:35:21</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:33</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5333b68adb0a1010b160ce4e1396194b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -7040,87 +6449,6 @@
         <value>{{action.subscription_id}}</value>
         <variable display_value="">ff1b5212dbf11010b160ce4e13961988</variable>
     </sys_variable_value>
-    <sys_hub_action_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=bfbcedc9-23c3-4b81-8f02-28c83e20a272</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>job_identifier</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Identifier</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Get Job Output">b1c37d1adb711010b160ce4e13961964</model>
-        <model_id>b1c37d1adb711010b160ce4e13961964</model_id>
-        <model_table>sys_hub_action_type_snapshot</model_table>
-        <name>var__m_sys_hub_action_input_b1c37d1adb711010b160ce4e13961964</name>
-        <next_element/>
-        <order>5</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_action_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-06 15:11:40</sys_created_on>
-        <sys_id>31c37d1adb711010b160ce4e13961982</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:11:40</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_action_input>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -7210,9 +6538,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:11:40</sys_created_on>
         <sys_id>b9c37d1adb711010b160ce4e13961976</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-20 18:35:21</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:33</sys_updated_on>
     </sys_hub_action_input_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b9c37d1adb711010b160ce4e13961976"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -7658,10 +6986,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:11:41</sys_created_on>
         <sys_id>12c37d1adb711010b160ce4e139619e0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-20 18:35:22</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:34</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=12c37d1adb711010b160ce4e139619e0"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -7672,18 +7000,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:11:42</sys_created_on>
         <sys_id>12c3bd1adb711010b160ce4e13961906</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-20 18:35:22</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:34</sys_updated_on>
         <value>(function execute(inputs, outputs) {
     var successCodes = ['200', '202', '201'];
-    var response = JSON.parse(inputs.response_body);
     var arrayUtil = new global.ArrayUtil();
     if (arrayUtil.contains(successCodes, inputs.status)) {
         outputs.status = 'Success';
-        if (response)
-            outputs.output = response;
-    } else {
+     	outputs.output = inputs.response_body;
+    } else {   
+        var response = JSON.parse(inputs.response_body);
         outputs.status = 'Error';
         if (response.message)
             outputs.error_message = response.message;
@@ -8272,10 +7599,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:11:40</sys_created_on>
         <sys_id>39c37d1adb711010b160ce4e13961989</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:11:41</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:34</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=39c37d1adb711010b160ce4e13961989"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -8286,14 +7613,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:11:41</sys_created_on>
         <sys_id>0ac37d1adb711010b160ce4e139619c4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:11:41</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:34</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 	var utils = new AzureAutomationUtils();
     utils.validateInputVariables(inputs, outputs);
-    utils.validateMandatoryVariables(inputs, ['subscription_id', 'resource_group_name','account_name','job_name','job_identifier']);
-    utils.mapToOutputFromInput(inputs, outputs, ['subscription_id', 'resource_group_name','account_name','job_name','job_identifier']);
+    utils.validateMandatoryVariables(inputs, ['subscription_id', 'resource_group_name','account_name','job_name']);
+    utils.mapToOutputFromInput(inputs, outputs, ['subscription_id', 'resource_group_name','account_name','job_name']);
 })(inputs, outputs);</value>
         <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
@@ -8396,7 +7723,7 @@
         <table>var__m_sys_hub_step_ext_input_39c37d1adb711010b160ce4e13961989</table>
         <value>{{action.subscription_id}}</value>
     </sys_element_mapping>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=39c37d1adb711010b160ce4e13961989^sys_idNOT IN31c37d1adb711010b160ce4e13961997,42c37d1adb711010b160ce4e1396199c,75c37d1adb711010b160ce4e1396198c,82c37d1adb711010b160ce4e139619a1,fdc37d1adb711010b160ce4e13961991"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=39c37d1adb711010b160ce4e13961989^sys_idNOT IN31c37d1adb711010b160ce4e13961997,42c37d1adb711010b160ce4e1396199c,75c37d1adb711010b160ce4e1396198c,fdc37d1adb711010b160ce4e13961991"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -8668,87 +7995,6 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>job_identifier</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>job_identifier</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Pre Processing">39c37d1adb711010b160ce4e13961989</model>
-        <model_id>39c37d1adb711010b160ce4e13961989</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_input_39c37d1adb711010b160ce4e13961989</name>
-        <next_element/>
-        <order>400</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-06 15:11:41</sys_created_on>
-        <sys_id>82c37d1adb711010b160ce4e139619a1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:11:41</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_input>
-    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
         <element>resource_group_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
@@ -8802,7 +8048,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=39c37d1adb711010b160ce4e13961989^sys_idNOT IN0ec37d1adb711010b160ce4e139619b6,4ac37d1adb711010b160ce4e139619b1,86c37d1adb711010b160ce4e139619ac,cac37d1adb711010b160ce4e139619a6,cec37d1adb711010b160ce4e139619bb"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=39c37d1adb711010b160ce4e13961989^sys_idNOT IN0ec37d1adb711010b160ce4e139619b6,4ac37d1adb711010b160ce4e139619b1,86c37d1adb711010b160ce4e139619ac,cac37d1adb711010b160ce4e139619a6"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -9127,87 +8373,6 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d0173ae3-5f42-462b-b4ea-67d80f62dfc0</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>job_identifier</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>job_identifier</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Pre Processing">39c37d1adb711010b160ce4e13961989</model>
-        <model_id>39c37d1adb711010b160ce4e13961989</model_id>
-        <model_table>sys_hub_step_instance</model_table>
-        <name>var__m_sys_hub_step_ext_output_39c37d1adb711010b160ce4e13961989</name>
-        <next_element/>
-        <order>5</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-06 15:11:41</sys_created_on>
-        <sys_id>cec37d1adb711010b160ce4e139619bb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:11:41</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_step_ext_output>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Get Job Output">b1c37d1adb711010b160ce4e13961964</action>
         <cid>f842ff2b-1496-49fe-9468-b28d368c34e9</cid>
@@ -9224,10 +8389,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:11:41</sys_created_on>
         <sys_id>8ec37d1adb711010b160ce4e139619c8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:11:41</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:34</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8ec37d1adb711010b160ce4e139619c8"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -9280,10 +8445,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:11:41</sys_created_on>
         <sys_id>46c37d1adb711010b160ce4e139619db</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:11:41</sys_updated_on>
-        <value>{}</value>
+        <sys_updated_on>2020-08-02 11:41:34</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"clientRequestId","value":""}]}</value>
         <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -9407,11 +8572,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-06 15:11:41</sys_created_on>
         <sys_id>42c37d1adb711010b160ce4e139619da</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:11:41</sys_updated_on>
+        <sys_updated_on>2020-08-02 11:41:34</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{"type":"ADV_NV","value":[{"name":"clientRequestId","value":"{{step[8d7ac6a4-bc91-4c0a-94b8-338843f4ba13].job_identifier}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>query_params</field>
@@ -9519,30 +8684,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_b1c37d1adb711010b160ce4e13961964^sys_idNOT IN31c37d1adb711010b160ce4e13961986,39c37d1adb711010b160ce4e13961975,7dc37d1adb711010b160ce4e13961980,bdc37d1adb711010b160ce4e13961969,db33b68adb0a1010b160ce4e13961949"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>job_identifier</element>
-        <help/>
-        <hint/>
-        <label>Identifier</label>
-        <language>en</language>
-        <name>var__m_sys_hub_action_input_b1c37d1adb711010b160ce4e13961964</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-06 15:11:40</sys_created_on>
-        <sys_id>31c37d1adb711010b160ce4e13961986</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="Azure Automation Spoke" source="x_snc_azure_automa">ae44450a1bb1101050dd41d4bd4bcb4a</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-06 15:11:40</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_b1c37d1adb711010b160ce4e13961964^sys_idNOT IN39c37d1adb711010b160ce4e13961975,7dc37d1adb711010b160ce4e13961980,bdc37d1adb711010b160ce4e13961969,db33b68adb0a1010b160ce4e13961949"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>resource_group_name</element>
         <help/>

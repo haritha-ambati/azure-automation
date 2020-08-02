@@ -9,10 +9,9 @@
         <name>AzureAutomationUtils</name>
         <script><![CDATA[var AzureAutomationUtils = Class.create();
 AzureAutomationUtils.prototype = {
-    initialize: function() {
-    },
+    initialize: function() {},
 
-	validateInputVariables: function(inputs, outputs) {
+    validateInputVariables: function(inputs, outputs) {
         for (var key in inputs) {
             var value = inputs[key];
             if (typeof value == 'string')
@@ -41,13 +40,13 @@ AzureAutomationUtils.prototype = {
             }
         return outputs;
     },
-	
-	createAccount: function(inputs, outputs) {
+
+    createAccount: function(inputs, outputs) {
         var payload = {};
-		payload.name = inputs.account_name;
-		if(inputs.location)
-			payload.location = inputs.location;
-		var inputTags = inputs.tags;
+        payload.name = inputs.account_name;
+        if (inputs.location)
+            payload.location = inputs.location;
+        var inputTags = inputs.tags;
         if (inputTags.length > 0) {
             var tags = {};
             inputTags.forEach(function(property) {
@@ -56,30 +55,30 @@ AzureAutomationUtils.prototype = {
                 }
             });
         }
-       if(JSON.stringify(tags) != '{}')
+        if (JSON.stringify(tags) != '{}')
             payload.tags = tags;
-		var properties = {};
-		var sku = {};
-		if(inputs.sku.family)
-			sku.family = inputs.sku.family;
-		if(inputs.sku.capacity)
-			sku.capacity = inputs.sku.capacity;
-		if(inputs.sku.name)
-			sku.name = inputs.sku.name;
-		if(JSON.stringify(sku) != '{}')
-			properties.sku = sku;
-		if(JSON.stringify(properties) != '{}')
-			payload.properties = properties;
+        var properties = {};
+        var sku = {};
+        if (inputs.sku.family)
+            sku.family = inputs.sku.family;
+        if (inputs.sku.capacity)
+            sku.capacity = inputs.sku.capacity;
+        if (inputs.sku.name)
+            sku.name = inputs.sku.name;
+        if (JSON.stringify(sku) != '{}')
+            properties.sku = sku;
+        if (JSON.stringify(properties) != '{}')
+            payload.properties = properties;
         outputs.payload = JSON.stringify(payload);
         return outputs;
     },
-	
-	createRunbook: function(inputs, outputs) {
+
+    createRunbook: function(inputs, outputs) {
         var payload = {};
-		payload.name = inputs.runbook_name;
-		if(inputs.location)
-			payload.location = inputs.location;
-		var inputTags = inputs.tags;
+        payload.name = inputs.runbook_name;
+        if (inputs.location)
+            payload.location = inputs.location;
+        var inputTags = inputs.tags;
         if (inputTags.length > 0) {
             var tags = {};
             inputTags.forEach(function(property) {
@@ -88,42 +87,42 @@ AzureAutomationUtils.prototype = {
                 }
             });
         }
-        if(JSON.stringify(tags) != '{}')
+        if (JSON.stringify(tags) != '{}')
             payload.tags = tags;
-		var properties = {};
-		if(inputs.description)
-			properties.description = inputs.description;
-		if(inputs.log_verbose)
-			properties.logVerbose = inputs.log_verbose;
-		if(inputs.runbook_type)
-			properties.runbookType = inputs.runbook_type;
-		if(inputs.log_progress)
-			properties.logProgress = inputs.log_progress;
-		var publishContentLink = {};
-		if(inputs.content.uri)
-			publishContentLink.uri = inputs.content.uri;
-		if(inputs.content.version)
-			publishContentLink.version = inputs.content.version;
-		var contentHash = {};
-		if(inputs.content.content_hash.algorithm)
-			contentHash.algorithm = inputs.content.content_hash.algorithm;
-		if(inputs.content.content_hash.value)
-			contentHash.value = inputs.content.content_hash.value;
-		if(JSON.stringify(contentHash) != '{}')
-			publishContentLink.contentHash = contentHash;
-		if(JSON.stringify(publishContentLink) != '{}')
-		properties.publishContentLink = publishContentLink;
-		if(JSON.stringify(properties) != '{}')
-			payload.properties = properties;
+        var properties = {};
+        if (inputs.description)
+            properties.description = inputs.description;
+        if (inputs.log_verbose)
+            properties.logVerbose = inputs.log_verbose;
+        if (inputs.runbook_type)
+            properties.runbookType = inputs.runbook_type;
+        if (inputs.log_progress)
+            properties.logProgress = inputs.log_progress;
+        var publishContentLink = {};
+        if (inputs.content.uri)
+            publishContentLink.uri = inputs.content.uri;
+        if (inputs.content.version)
+            publishContentLink.version = inputs.content.version;
+        var contentHash = {};
+        if (inputs.content.content_hash.algorithm)
+            contentHash.algorithm = inputs.content.content_hash.algorithm;
+        if (inputs.content.content_hash.value)
+            contentHash.value = inputs.content.content_hash.value;
+        if (JSON.stringify(contentHash) != '{}')
+            publishContentLink.contentHash = contentHash;
+        if (JSON.stringify(publishContentLink) != '{}')
+            properties.publishContentLink = publishContentLink;
+        if (JSON.stringify(properties) != '{}')
+            payload.properties = properties;
         outputs.payload = JSON.stringify(payload);
         return outputs;
     },
-	
-	createJob: function(inputs, outputs) {
+
+    createJob: function(inputs, outputs) {
         var payload = {};
-		if(inputs.runon)
-			payload.runOn = inputs.runon;
-		var params = inputs.parameters;
+        if (inputs.runon)
+            payload.runOn = inputs.runon;
+        var params = inputs.parameters;
         if (params.length > 0) {
             var param = {};
             params.forEach(function(property) {
@@ -132,23 +131,23 @@ AzureAutomationUtils.prototype = {
                 }
             });
         }
-		var properties = {};
+        var properties = {};
         properties.parameters = param;
-		var runbook = {};
-		if(inputs.runbook_name)
-			runbook.name = inputs.runbook_name;
-		properties.runbook = runbook;
-		payload.properties = properties;
+        var runbook = {};
+        if (inputs.runbook_name)
+            runbook.name = inputs.runbook_name;
+        properties.runbook = runbook;
+        payload.properties = properties;
         outputs.payload = JSON.stringify(payload);
         return outputs;
     },
-	
-	createJobSchedule: function(inputs, outputs) {
+
+    createJobSchedule: function(inputs, outputs) {
         var payload = {};
-		var properties = {};
-		if(inputs.run_on)
-			properties.runOn = inputs.run_on;
-		var params = inputs.parameters;
+        var properties = {};
+        if (inputs.run_on)
+            properties.runOn = inputs.run_on;
+        var params = inputs.parameters;
         if (params.length > 0) {
             var param = {};
             params.forEach(function(property) {
@@ -158,96 +157,96 @@ AzureAutomationUtils.prototype = {
             });
         }
         payload.parameters = param;
-		var runbook = {};
-		if(inputs.runbook_name)
-			runbook.name = inputs.runbook_name;
-		properties.runbook = runbook;
-		var schedule = {};
-		if(inputs.schedule_name)
-			schedule.name = inputs.schedule_name;
-		properties.schedule = schedule;
-		payload.properties = properties;
+        var runbook = {};
+        if (inputs.runbook_name)
+            runbook.name = inputs.runbook_name;
+        properties.runbook = runbook;
+        var schedule = {};
+        if (inputs.schedule_name)
+            schedule.name = inputs.schedule_name;
+        properties.schedule = schedule;
+        payload.properties = properties;
         outputs.payload = JSON.stringify(payload);
         return outputs;
     },
-	
-	createSchedule: function(inputs, outputs) {
+
+    createSchedule: function(inputs, outputs) {
         var payload = {};
-		var properties = {};
-		payload.name = inputs.schedule_name;
-		if(inputs.description)
-			properties.description = inputs.description;
-		if(inputs.start_time)
-			properties.startTime = inputs.start_time;
-		if(inputs.expiry_time)
-			properties.expiryTime = inputs.expiry_time;
-		if(inputs.frequency)
-			properties.frequency = inputs.frequency;
-		if(inputs.interval)
-			properties.interval = inputs.interval;
-		if(inputs.time_zone)
-			properties.timeZone = inputs.time_zone;
-		var advance = {};
-		if(inputs.advance.Month_Days > 0){
-			inputs.advance.Month_Days.forEach(function(property){
-				var days = [];
-				days.push(property);
-				if (days.length > 0)
+        var properties = {};
+        payload.name = inputs.schedule_name;
+        if (inputs.description)
+            properties.description = inputs.description;
+        if (inputs.start_time)
+            properties.startTime = inputs.start_time;
+        if (inputs.expiry_time)
+            properties.expiryTime = inputs.expiry_time;
+        if (inputs.frequency)
+            properties.frequency = inputs.frequency;
+        if (inputs.interval)
+            properties.interval = inputs.interval;
+        if (inputs.time_zone)
+            properties.timeZone = inputs.time_zone;
+        var advance = {};
+        if ((inputs.advance.Month_Days).length > 0) {
+            inputs.advance.Month_Days.forEach(function(property) {
+                var days = [];
+                days.push(property);
+                if (days.length > 0)
                     advance.monthDays = days;
             });
-		}
-		if(inputs.advance.Monthly_Occurrences.Day && inputs.advance.Monthly_Occurrences.Occurence){
-			var occuracne = {};
-			occuracne.day = inputs.advance.Monthly_Occurrences.Day;
-			occuracne.occurance = inputs.advance.Monthly_Occurrences.Occurence;	
-			if(occuracne!= null)
-				advance.monthlyOccurrences = occuracne;
-		}
-	
-		if(inputs.advance.Week_Days > 0){
-			inputs.advance.Week_Days.forEach(function(property){
-				var week = [];
-				week.push(property);
-				if (week.length > 0)
-                    advance.weekDays = week;
+        }
+        if (inputs.advance.Monthly_Occurrences.Day && inputs.advance.Monthly_Occurrences.Occurence) {
+            var occuracne = {};
+            occuracne.day = inputs.advance.Monthly_Occurrences.Day;
+            occuracne.occurance = inputs.advance.Monthly_Occurrences.Occurence;
+            if (occuracne != null)
+                advance.monthlyOccurrences = occuracne;
+        }
+
+        if (inputs.advance.Week_Days > 0) {
+            var week = [];
+            inputs.advance.Week_Days.forEach(function(property) {
+                week.push(property);
             });
-		}
-		if(JSON.stringify(advance) != '{}')
-			properties.advancedSchedule = advance;
-		if(JSON.stringify(properties) != '{}')
-			payload.properties = properties;
+            if (week.length > 0)
+                advance.weekDays = week;
+        }
+        if (JSON.stringify(advance) != '{}')
+            properties.advancedSchedule = advance;
+        if (JSON.stringify(properties) != '{}')
+            payload.properties = properties;
         outputs.payload = JSON.stringify(payload);
         return outputs;
     },
-	
-	updateSchedule: function(inputs, outputs) {
+
+    updateSchedule: function(inputs, outputs) {
         var payload = {};
-		var properties = {};
-		payload.name = inputs.schedule_name;
-		if(inputs.description)
-			properties.description = inputs.description;
-		if(inputs.isEnabled)
-			properties.isEnabled = inputs.enabled;
-		if(JSON.stringify(properties) != '{}')
-			payload.properties = properties;
+        var properties = {};
+        payload.name = inputs.schedule_name;
+        if (inputs.description)
+            properties.description = inputs.description;
+        if (inputs.isEnabled)
+            properties.isEnabled = inputs.enabled;
+        if (JSON.stringify(properties) != '{}')
+            payload.properties = properties;
         outputs.payload = JSON.stringify(payload);
         return outputs;
     },
-	
-		
-	createWatcher: function(inputs, outputs) {
+
+
+    createWatcher: function(inputs, outputs) {
         var payload = {};
-		var properties = {};
-		payload.name = inputs.watcher_name;
-		if(inputs.runon)
-			properties.scriptRunOn = inputs.runon;
-		if(inputs.frequency)
-			properties.executionFrequencyInSeconds = inputs.frequency;
-		if(inputs.runbook_name)
-			properties.scriptName = inputs.runbook_name;
-		if(inputs.description)
-			properties.description = inputs.description;
-		var params = inputs.parameters;
+        var properties = {};
+        payload.name = inputs.watcher_name;
+        if (inputs.runon)
+            properties.scriptRunOn = inputs.runon;
+        if (inputs.frequency)
+            properties.executionFrequencyInSeconds = inputs.frequency;
+        if (inputs.runbook_name)
+            properties.scriptName = inputs.runbook_name;
+        if (inputs.description)
+            properties.description = inputs.description;
+        var params = inputs.parameters;
         if (params.length > 0) {
             var param = {};
             params.forEach(function(property) {
@@ -257,7 +256,7 @@ AzureAutomationUtils.prototype = {
             });
         }
         properties.scriptParameters = param;
-		var inputTags = inputs.tags;
+        var inputTags = inputs.tags;
         if (inputTags.length > 0) {
             var tags = {};
             inputTags.forEach(function(property) {
@@ -266,40 +265,40 @@ AzureAutomationUtils.prototype = {
                 }
             });
         }
-		payload.tags = tags;
-		payload.properties = properties;
+        payload.tags = tags;
+        payload.properties = properties;
         outputs.payload = JSON.stringify(payload);
         return outputs;
     },
-	
-	createConfiguration: function(inputs, outputs) {
+
+    createConfiguration: function(inputs, outputs) {
         var payload = {};
-		if(inputs.location)
-			payload.location = inputs.location;
-		if(inputs.configuration_name)
-			payload.name = inputs.configuration_name;
-		var properties = {};
-		if(inputs.description)
-			properties.description = inputs.description;
-		var content = {};
-		if(inputs.content.Content)
-			content.value = inputs.content.Content;
-		if(inputs.content.Version)
-			content.version = inputs.content.Version;
-		if(inputs.content.Type)
-			content.type = inputs.content.Type;
-		var hash = {};
-		if(inputs.content.Hash.Algorithm)
-			hash.algorithm = inputs.content.Hash.Algorithm;
-		if(inputs.content.Hash.Value)
-			hash.value = inputs.content.Hash.Value;
-		if(JSON.stringify(hash) != '{}')
-			content.hash = hash;
-		if(JSON.stringify(content) != '{}')
-			properties.source = content;
-		if(JSON.stringify(properties) != '{}')
-			payload.properties = properties;
-		var inputTags = inputs.tags;
+        if (inputs.location)
+            payload.location = inputs.location;
+        if (inputs.configuration_name)
+            payload.name = inputs.configuration_name;
+        var properties = {};
+        if (inputs.description)
+            properties.description = inputs.description;
+        var content = {};
+        if (inputs.content.Content)
+            content.value = inputs.content.Content;
+        if (inputs.content.Version)
+            content.version = inputs.content.Version;
+        if (inputs.content.Type)
+            content.type = inputs.content.Type;
+        var hash = {};
+        if (inputs.content.Hash.Algorithm)
+            hash.algorithm = inputs.content.Hash.Algorithm;
+        if (inputs.content.Hash.Value)
+            hash.value = inputs.content.Hash.Value;
+        if (JSON.stringify(hash) != '{}')
+            content.hash = hash;
+        if (JSON.stringify(content) != '{}')
+            properties.source = content;
+        if (JSON.stringify(properties) != '{}')
+            payload.properties = properties;
+        var inputTags = inputs.tags;
         if (inputTags.length > 0) {
             var tags = {};
             inputTags.forEach(function(property) {
@@ -308,26 +307,26 @@ AzureAutomationUtils.prototype = {
                 }
             });
         }
-		if(JSON.stringify(tags) != '{}')
+        if (JSON.stringify(tags) != '{}')
             payload.tags = tags;
         outputs.payload = JSON.stringify(payload);
         return outputs;
     },
-	
-	createCompileJob: function(inputs, outputs) {
+
+    createCompileJob: function(inputs, outputs) {
         var payload = {};
-		if(inputs.location)
-			payload.location = inputs.location;
-		if(inputs.compilation_job_name)
-			payload.name = inputs.compilation_job_name;
-		var properties = {};
-		var config = {};
-		if(inputs.configuration_name)
-			config.name = inputs.configuration_name;
-		properties.configuration = config;
-		if(JSON.stringify(properties) != '{}')
-			payload.properties = properties;
-		var inputTags = inputs.tags;
+        if (inputs.location)
+            payload.location = inputs.location;
+        if (inputs.compilation_job_name)
+            payload.name = inputs.compilation_job_name;
+        var properties = {};
+        var config = {};
+        if (inputs.configuration_name)
+            config.name = inputs.configuration_name;
+        properties.configuration = config;
+        if (JSON.stringify(properties) != '{}')
+            payload.properties = properties;
+        var inputTags = inputs.tags;
         if (inputTags.length > 0) {
             var tags = {};
             inputTags.forEach(function(property) {
@@ -336,25 +335,228 @@ AzureAutomationUtils.prototype = {
                 }
             });
         }
-		if(JSON.stringify(tags) != '{}')
+        if (JSON.stringify(tags) != '{}')
             payload.tags = tags;
         outputs.payload = JSON.stringify(payload);
         return outputs;
     },
-	
+
+    createUpdate: function(inputs, outputs) {
+        var payload = {};
+        var properties = {};
+        var update = {};
+        if ((inputs.update.Azure_Virtual_Machines).length > 0) {
+            var azureVirtualMachines = [];
+            inputs.update.Azure_Virtual_Machines.forEach(function(property) {
+                azureVirtualMachines.push(property);
+            });
+        }
+        if (JSON.stringify(azureVirtualMachines) != '{}')
+            update.azureVirtualMachines = azureVirtualMachines;
+        if (inputs.update.Duration)
+            update.duration = inputs.update.Duration;
+
+        if (JSON.stringify(inputs.update.Non_Azure_Computer_Names) != '{}') {
+            var nonAzureComputerNames = [];
+            inputs.update.Non_Azure_Computer_Names.forEach(function(property) {
+                if (property)
+                    nonAzureComputerNames.push(property);
+            });
+            if (nonAzureComputerNames.length > 0)
+                update.nonAzureComputerNames = nonAzureComputerNames;
+
+        }
+        if (inputs.update.Operating_System)
+            update.operatingSystem = inputs.update.Operating_System;
+
+        if (JSON.stringify(inputs.update.Targets) != '{}') {
+            var targets = {};
+            if (JSON.stringify(inputs.update.Targets.Azure_Queries) != '{}') {
+                var azureQueries = [];
+                inputs.update.Targets.Azure_Queries.forEach(function(property) {
+                    var query = {};
+                    if (property.Location)
+                        query.location = property.Location;
+                    if (property.scope)
+                        query.scope = property.Scope;
+                    if (JSON.stringify(query) != '{}')
+                        azureQueries.push(query);
+                });
+                if (azureQueries.length > 0)
+                    targets.azureQueries = azureQueries;
+            }
+            if (JSON.stringify(inputs.update.Targets.Non_Azure_Queries) != '{}') {
+                var nonAzureQueries = [];
+                inputs.update.Targets.Non_Azure_Queries.forEach(function(property) {
+                    var queries = {};
+                    if (property.Function_Alias)
+                        queries.functionAlias = property.Function_Alias;
+                    if (property.Workspace_ID)
+                        queries.workspaceId = property.Workspace_ID;
+                    if (JSON.stringify(queries) != '{}')
+                        nonAzureQueries.push(queries);
+                });
+                if (nonAzureQueries.length > 0)
+                    targets.nonAzureQueries = nonAzureQueries;
+            }
+        }
+        if (JSON.stringify(targets) != '{}')
+            update.targets = targets;
+
+        if (JSON.stringify(inputs.update.Windows_Properties) != '{}') {
+            var windows = {};
+            // 			if((inputs.update.Windows_Properties.Excluded_Kb_Numbers).length > 0){
+            // 				var excludedKbNumbers = [];
+            // 				inputs.update.Linux_properties.Excluded_Kb_Numbers.forEach(function(property) {
+            // 					excludedKbNumbers.push(property);
+            //             });
+            // 			if(excludedKbNumbers.length > 0)
+            // 				windows.excludedKbNumbers = excludedKbNumbers;
+            // 			}
+            // 			gs.info(JSON.stringify(excludedKbNumbers)+"hari");
+            if (inputs.update.Windows_Properties.Included_Update_Classifications)
+                windows.includedUpdateClassifications = inputs.update.Windows_Properties.Included_Update_Classifications;
+            // 			if(JSON.stringify(inputs.update.Windows_Properties.Included_Kb_Numbers) != '{}'){
+            // 				var includedKbNumbers = [];
+            // 				inputs.update.Linux_properties.Included_Kb_Numbers.forEach(function(property) {
+            //                 includedKbNumbers.push(property);
+            //             });
+            // 				if(includedKbNumbers.length > 0)
+            // 					windows.includedKbNumbers = includedKbNumbers;
+            // 			}
+            if (inputs.update.Windows_Properties.Reboot_Setting)
+                windows.rebootSetting = inputs.update.Windows_Properties.Reboot_Setting;
+        }
+        if (JSON.stringify(windows) != '{}')
+            update.windows = windows;
+        var linux = {};
+        if (JSON.stringify(inputs.update.Linux_Properties) != '{}') {
+            // 			if((inputs.update.Linux_Properties.Excluded_Package_Name_Masks).length > 0){
+            // 				var excludedPackageNameMasks = [];
+            // 				var mask = inputs.update.Linux_properties.Excluded_Package_Name_Masks;
+            // 				mask.forEach(function(property) {
+            //                 excludedPackageNameMasks.push(property);
+            //             });
+            // 				if(excludedPackageNameMasks.length > 0)
+            // 					linux.excludedPackageNameMasks = excludedPackageNameMasks;
+            // 			}
+            if (inputs.update.Linux_Properties.Included_Package_Classifications)
+                linux.includedPackageClassifications = inputs.update.Linux_Properties.Included_Package_Classifications;
+            // 			if(JSON.stringify(inputs.update.Linux_Properties.Included_Package_Name_Masks) != '{}'){
+            // 				var includedPackageNameMasks = [];
+            // 				inputs.update.Linux_properties.Included_Package_Name_Masks.forEach(function(property) {
+            //                 includedPackageNameMasks.push(property);
+            //             });
+            // 				if(includedPackageNameMasks.length > 0)
+            // 					linux.includedPackageNameMasks = includedPackageNameMasks;
+            // 			}
+            if (inputs.update.Linux_Properties.Reboot_Setting)
+                linux.rebootSetting = inputs.update.Linux_Properties.Reboot_Setting;
+        }
+        if (JSON.stringify(linux) != '{}')
+            update.linux = linux;
+        if (JSON.stringify(update) != '{}')
+            properties.updateConfiguration = update;
+        var tasks = {};
+        //if(JSON.stringify(inputs.tasks.Pre_Task)!= '{}'){
+        var pretask = {};
+        if (inputs.Tasks.Pre_Task.Runbook)
+            pretask.runbook = inputs.Tasks.Pre_Task.Runbook;
+        var params = inputs.Tasks.Pre_Task.parameters;
+        if (params.length > 0) {
+            var param = {};
+            params.forEach(function(property) {
+                if (property.Name.trim() && property.Value.trim()) {
+                    param[property.Name] = property.Value;
+                }
+            });
+            if (JSON.stringify(param) != '{}')
+                pretask.parameters = param;
+        }
+        //}
+        if (JSON.stringify(inputs.Tasks.Post_Task) != '{}') {
+            var postTask = {};
+            if (inputs.Tasks.Post_Task.Runbook)
+                postTask.runbook = inputs.Tasks.Post_Task.Runbook;
+            var postParams = inputs.Tasks.Post_Task.Parameters;
+            if (postParams.length > 0) {
+                var postParam = {};
+                postParams.forEach(function(property) {
+                    if (property.Name.trim() && property.Value.trim()) {
+                        postParam[property.Name] = property.Value;
+                    }
+                });
+                if (JSON.stringify(postParams) != '{}')
+                    postTask.parameters = postParam;
+            }
+        }
+        if (JSON.stringify(tasks) != '{}')
+            properties.tasks = tasks;
+        var schedule = {};
+        if (inputs.schedule.Description)
+            schedule.description = inputs.schedule.Description;
+        if (inputs.schedule.Start_Time)
+            schedule.startTime = inputs.schedule.Start_Time;
+        if (inputs.schedule.Expiry_Time)
+            schedule.expiryTime = inputs.schedule.Expiry_Time;
+        if (inputs.schedule.Frequency)
+            schedule.frequency = inputs.schedule.Frequency;
+        if (inputs.schedule.Interval)
+            schedule.interval = inputs.schedule.Interval;
+        if (inputs.schedule.Is_Enabled)
+            schedule.isEnabled = inputs.schedule.Is_Enabled;
+        if (inputs.schedule.Next_Run)
+            schedule.nextRun = inputs.schedule.Next_Run;
+        if (inputs.schedule.Time_Zone)
+            schedule.timeZone = inputs.schedule.Time_Zone;
+        var advance = {};
+        if (inputs.schedule.Advanced_Schedule.Month_Days) {
+            var days = [];
+            inputs.schedule.Advanced_Schedule.Month_Days.forEach(function(property) {
+                if (property)
+                    days.push(property);
+            });
+            if (days.length > 0)
+                advance.monthDays = days;
+        }
+        if (inputs.schedule.Advanced_Schedule.Monthly_Occurrences.Day && inputs.advance.Monthly_Occurrences.Occurence) {
+            var occuracne = {};
+            occuracne.day = inputs.schedule.Advanced_Schedule.Monthly_Occurrences.Day;
+            occuracne.occurance = inputs.schedule.Advanced_Schedule.Monthly_Occurrences.Occurence;
+            if (occuracne != null)
+                advance.monthlyOccurrences = occuracne;
+        }
+        if ((inputs.schedule.Advanced_Schedule.Week_Days).length > 0) {
+            var week = [];
+            inputs.schedule.Advanced_Schedule.Week_Days.forEach(function(property) {
+                if (property)
+                    week.push(property);
+            });
+            if (week.length > 0)
+                advance.weekDays = week;
+        }
+        if (JSON.stringify(advance) != '{}')
+            schedule.advancedSchedule = advance;
+        if (JSON.stringify(schedule))
+            properties.scheduleInfo = schedule;
+        payload.properties = properties;
+        outputs.payload = JSON.stringify(payload);
+        return outputs;
+    },
+
     type: 'AzureAutomationUtils'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-05 17:29:46</sys_created_on>
         <sys_id>3fb98dca1bb1101050dd41d4bd4bcbd6</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>63</sys_mod_count>
         <sys_name>AzureAutomationUtils</sys_name>
         <sys_package display_value="Azure Automation Spoke" source="x_snc_azure_automa">ae44450a1bb1101050dd41d4bd4bcb4a</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Azure Automation Spoke">ae44450a1bb1101050dd41d4bd4bcb4a</sys_scope>
         <sys_update_name>sys_script_include_3fb98dca1bb1101050dd41d4bd4bcbd6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-20 18:58:32</sys_updated_on>
+        <sys_updated_on>2020-08-01 20:16:04</sys_updated_on>
     </sys_script_include>
 </record_update>
